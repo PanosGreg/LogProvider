@@ -1,0 +1,31 @@
+
+# a) about the $Global:_DriveLogs variable:
+
+# the  $_DriveLogs will be exposed to the end-user, but it won't be the same
+# var as the one that the PSDrive will be using, for some reason
+# Which means even if the end-user deletes the  $_DriveLogs var, or adds/removes
+# any entries to/from it. These changes won't affect the var that the
+# PSDrive is using. So essentially the  $_DriveLogs var that the end-user can access
+# and the  $_DriveLogs var that the Provider accesses, are 2 different vars
+
+
+
+b) about the Cache setting:
+
+# I explicitly set the Cache to false, in order for SHiPS to
+# re-instantiate the LogStream classes each time the user does "dir"
+# so that the count will be calculated anew
+
+
+
+c) about data persistence:
+
+The data can persist in 2 ways:
+   1) by setting the UseCache to true on the root class of the provider
+      And then using a hidden property to store the data.
+      BUT if the user runs "dir -force" on the root, then it will empty the cache
+      so all the data written will be lost.
+
+   2) by using a global variable on the top of the module, which can be accessed
+      inside the classes. This way you don't need any hidden property nor do you
+      need to use the cache setting.
