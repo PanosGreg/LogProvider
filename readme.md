@@ -58,3 +58,12 @@ DESKTOP          VERB    15:46:56   This is a test message
 Unfortunately the module must be loaded first in order for the PS drive to be created afterwards.  
 That's because the root of the drive is `<Module_Name>#<Class_Name>` which means you need to have  
 the module loaded beforehand in order to use the module's name as part of the root name.
+
+## Run the integration tests
+
+You can also run the integration tests of the module on your own if you like, to make sure everything works as expected.
+```PowerShell
+$path = 'C:\CoupaCode\MyGithubRepos\LogProvider\LogProvider.tests.ps1'
+$test = Invoke-Pester -Path $path -PassThru -Output Detailed
+$test | select Result, ExecutedAt, TotalCount
+```

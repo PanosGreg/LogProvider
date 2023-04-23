@@ -21,7 +21,7 @@ dir LogDrive:\Logs\
 
 ###########################
 
-# all in one
+# try the module
 
 Import-Module C:\CoupaCode\MyGithubRepos\LogProvider\LogProvider.psd1
 New-PSDrive -Name LogDrive -PSProvider SHiPS -Root 'LogProvider#LogRoot' | Out-Null
@@ -33,3 +33,11 @@ cd .\Logs\
 dir
 cd .\VERB\
 dir
+
+
+################################
+
+# run the pester tests
+
+$path = 'C:\CoupaCode\MyGithubRepos\LogProvider\LogProvider.tests.ps1'
+Invoke-Pester -Path $path -Output Detailed
