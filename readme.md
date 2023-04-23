@@ -29,10 +29,14 @@ Get-ChildItem LogDrive:\Logs\VERB\
 
 <# returns the following:
 
+    Directory: LogDrive:\
+
 ItemType  Name    Count
 --------  ----    -----
 Folder    Logs    4
 Folder    Subs    0
+
+    Directory: LogDrive:\Logs
 
 ItemType  Name    Count  LastMessage
 --------  ----    -----  -----------

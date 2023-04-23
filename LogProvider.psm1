@@ -26,7 +26,7 @@ class LogStream : Microsoft.PowerShell.SHiPS.SHiPSDirectory {
             $this.Count = $Sum
 
             $All    = $Types | foreach {$Global:_DriveLogs[$_]}
-            $Sorted = [System.Linq.Enumerable]::OrderBy(
+            $Sorted = [System.Linq.Enumerable]::OrderBy(  # <-- I'm using LINQ for faster results
                 [MyLogger.Payload[]]$All,
                 [Func[Mylogger.Payload,datetime]] {($args[0]).Timestamp}
             )

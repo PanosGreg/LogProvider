@@ -1,12 +1,40 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Configuration>
-  <ViewDefinitions>
 
+ <Controls>
+    <Control>
+      <Name>LogDriveDirectoryName</Name>
+      <CustomControl>
+        <CustomEntries>
+          <CustomEntry>
+            <CustomItem>
+              <Frame>
+                <LeftIndent>4</LeftIndent>
+                <CustomItem>
+                  <Text>Directory: </Text>
+                  <ExpressionBinding>
+                      <ScriptBlock>$PWD.Path</ScriptBlock>
+                  </ExpressionBinding>
+                  <NewLine/>
+                </CustomItem>
+              </Frame>
+            </CustomItem>
+          </CustomEntry>
+        </CustomEntries>
+      </CustomControl>
+    </Control>
+  </Controls>
+
+  <ViewDefinitions>
     <View>
       <Name>LogStreamFolderItems</Name>
       <ViewSelectedBy>
           <TypeName>LogStream</TypeName>
       </ViewSelectedBy>
+      <GroupBy>
+          <PropertyName>PSParentPath</PropertyName>
+          <CustomControlName>LogDriveDirectoryName</CustomControlName>
+      </GroupBy>
       <TableControl>
         <!-- <AutoSize/> -->
         <TableHeaders>
@@ -53,6 +81,10 @@
           <TypeName>LogStreamFolder</TypeName>
           <TypeName>LogSubscriber</TypeName>
       </ViewSelectedBy>
+      <GroupBy>
+          <PropertyName>PSParentPath</PropertyName>
+          <CustomControlName>LogDriveDirectoryName</CustomControlName>
+      </GroupBy>
       <TableControl>
         <TableHeaders>
           <TableColumnHeader>
@@ -84,6 +116,6 @@
         </TableRowEntries>
       </TableControl>
     </View>
-
  </ViewDefinitions>
+
 </Configuration>

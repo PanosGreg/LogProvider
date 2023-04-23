@@ -16,3 +16,20 @@ $log = [MyLogger.Payload]::new('VERB','This is a test message')
 cd LogDrive:\Logs\VERB\
 dir
 dir LogDrive:\Logs\
+
+
+
+###########################
+
+# all in one
+
+Import-Module C:\CoupaCode\MyGithubRepos\LogProvider\LogProvider.psd1
+New-PSDrive -Name LogDrive -PSProvider SHiPS -Root 'LogProvider#LogRoot' | Out-Null
+(Get-Item LogDrive:\Logs\VERB).SetContent([MyLogger.Payload]::new('VERB','This is a test message'))
+
+cd LogDrive:\
+dir
+cd .\Logs\
+dir
+cd .\VERB\
+dir
