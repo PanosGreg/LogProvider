@@ -1,6 +1,6 @@
 ﻿
 # load the module
-Import-Module C:\CoupaCode\LogProvider\LogProvider.psd1
+Import-Module C:\CoupaCode\MyGithubRepos\LogProvider\LogProvider.psd1
 
 
 # create the log drive
@@ -12,5 +12,6 @@ else                {dir LogDrive:\}
 
 # add a sample log
 $log = [MyLogger.Payload]::new('VERB','This is a test message')
-(Get-Item LogDrive:\VERB).SetContent($log)
-dir LogDrive:\VERB\
+(Get-Item LogDrive:\Logs\VERB).SetContent($log)
+cd LogDrive:\Logs\VERB\
+dir

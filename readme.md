@@ -20,16 +20,23 @@ New-PSDrive -Name LogDrive -PSProvider SHiPS -Root 'LogProvider#LogRoot'
 
 # add a sample log
 $log = [MyLogger.Payload]::new('VERB','This is a test message')
-(Get-Item LogDrive:\VERB).SetContent($log)
+(Get-Item LogDrive:\Logs\VERB).SetContent($log)
 
 # show the logs
 Get-ChildItem LogDrive:\
-Get-ChildItem LogDrive:\VERB\
+Get-ChildItem LogDrive:\Logs\
+Get-ChildItem LogDrive:\Logs\VERB\
 
 <# returns the following:
 
+ItemType  Name    Count
+--------  ----    -----
+Folder    Logs    4
+Folder    Subs    0
+
 ItemType  Name    Count  LastMessage
 --------  ----    -----  -----------
+Folder    ALL     4      15:46:56
 Folder    VERB    2      15:46:56
 Folder    WARN    1      15:46:49
 Folder    INFO    1      15:46:49

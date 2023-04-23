@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Configuration>
   <ViewDefinitions>
+
     <View>
-      <Name>LogDriveDefaultView</Name>
+      <Name>LogStreamFolderItems</Name>
       <ViewSelectedBy>
           <TypeName>LogStream</TypeName>
       </ViewSelectedBy>
-
       <TableControl>
         <!-- <AutoSize/> -->
         <TableHeaders>
@@ -46,5 +46,44 @@
         </TableRowEntries>
       </TableControl>
     </View>
+
+    <View>
+      <Name>LogRootItems</Name>
+      <ViewSelectedBy>
+          <TypeName>LogStreamFolder</TypeName>
+          <TypeName>LogSubscriber</TypeName>
+      </ViewSelectedBy>
+      <TableControl>
+        <TableHeaders>
+          <TableColumnHeader>
+            <Label>ItemType</Label>
+            <Width>9</Width>
+          </TableColumnHeader>
+          <TableColumnHeader>
+            <Label>Name</Label>
+            <Width>7</Width>
+          </TableColumnHeader>
+          <TableColumnHeader>
+            <Label>Count</Label>
+			<Width>6</Width>
+          </TableColumnHeader>
+        </TableHeaders>
+        <TableRowEntries>
+          <TableRowEntry>
+            <Wrap/>
+            <TableColumnItems>
+              <TableColumnItem>
+                <Scriptblock>
+                    if ($_.SSItemMode -eq '+') {'Folder'} elseif ($_.SSItemMode -eq '-') {'Item'}
+                </Scriptblock>
+			  </TableColumnItem>
+              <TableColumnItem><PropertyName>Name</PropertyName></TableColumnItem>
+              <TableColumnItem><PropertyName>Count</PropertyName></TableColumnItem>
+            </TableColumnItems>
+          </TableRowEntry>
+        </TableRowEntries>
+      </TableControl>
+    </View>
+
  </ViewDefinitions>
 </Configuration>
