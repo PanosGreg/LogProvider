@@ -32,7 +32,21 @@
                                 <PropertyName>ComputerName</PropertyName>
                             </TableColumnItem>
                             <TableColumnItem>
-                                <PropertyName>Type</PropertyName>
+                                <Scriptblock>  # Type property with Colors
+                                $Sev = $_.Type.ToString()  # Severity
+                                $Def = '{0}[0m'                -f [char]27
+                                $Blu = '{0}[38;2;{1};{2};{3}m' -f [char]27,  61, 148, 243  # Blue
+                                $Yel = '{0}[38;2;{1};{2};{3}m' -f [char]27, 240, 230, 140  # Yellow
+                                $Grn = '{0}[38;2;{1};{2};{3}m' -f [char]27, 146, 208,  80  # Green
+                                $Red = '{0}[38;2;{1};{2};{3}m' -f [char]27, 231,  72,  86  # Red
+                                $Wht = '{0}[38;2;{1};{2};{3}m' -f [char]27, 238, 237, 240  # White
+                                if     ($Sev -eq 'VERB') {$Color = $Blu}
+                                elseif ($Sev -eq 'WARN') {$Color = $Yel}
+                                elseif ($Sev -eq 'INFO') {$Color = $Grn}
+                                elseif ($Sev -eq 'ALL')  {$Color = $Wht}
+                                else                     {$Color = $Def}
+                                '{0}{1}{2}' -f $Color,$Sev,$Def
+                                </Scriptblock>
                             </TableColumnItem>
                             <TableColumnItem>
                                 <Scriptblock>$_.Timestamp.ToString('HH:mm:ss')</Scriptblock>
