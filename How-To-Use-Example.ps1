@@ -15,3 +15,4 @@ $log = [MyLogger.Payload]::new('VERB','This is a test message')
 (Get-Item LogDrive:\Logs\VERB).SetContent($log)
 cd LogDrive:\Logs\VERB\
 dir
+dir LogDrive:\Logs\

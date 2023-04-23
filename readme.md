@@ -13,7 +13,7 @@ leverage in order to see their logs.
 ```PowerShell
 
 # load the module
-Import-Module C:\CoupaCode\LogProvider\LogProvider.psd1
+Import-Module C:\CoupaCode\MyGithubRepos\LogProvider\LogProvider.psd1
 
 # create the log drive
 New-PSDrive -Name LogDrive -PSProvider SHiPS -Root 'LogProvider#LogRoot'
