@@ -21,7 +21,8 @@ dir LogDrive:\Logs\
 
 ###########################
 
-# try the module
+
+# another take of the above, but in a shorter manner:
 
 Import-Module C:\CoupaCode\MyGithubRepos\LogProvider\LogProvider.psd1
 New-PSDrive -Name LogDrive -PSProvider SHiPS -Root 'LogProvider#LogRoot' | Out-Null
@@ -41,3 +42,35 @@ dir
 
 $path = 'C:\CoupaCode\MyGithubRepos\LogProvider\LogProvider.tests.ps1'
 Invoke-Pester -Path $path -Output Detailed
+
+##############################
+
+# record a terminalizer demo
+
+terminalizer record .\DemoTest.yml --config .\Terminalizer.config.yml
+
+# Note: I'm using a config file to:
+# a) use pwsh instead of powershell (which is the default)
+# b) set a max idle time to 400ms, instead of 2sec
+# c) set some colors for the console
+
+# playback the recording
+
+terminalizer play .\DemoTest.yml
+
+# Note: you don't need the config file for the playback
+
+
+# Terminalizer installation notes
+<#
+terminalizer requires a specific maximum version of node.js.
+it can work with up to v16, and it won't work with newer versions.
+
+So here's an example of how you can install both node and terminalizer
+using choicolatey
+#>
+choco install nodejs-lts -y --version=16.20.0 --force
+refreshenv
+
+npm install -g terminalizer
+refreshenv

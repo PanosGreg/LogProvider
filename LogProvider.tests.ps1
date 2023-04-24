@@ -58,10 +58,21 @@ Describe 'LogDrive' {
         }
     }
     Context 'Add logs to the drive' {
-        It 'Adds a log to the <_> folder' -ForEach 'VERB','WARN','INFO' {
-            # use the .SetContent() method to add a log
+        It 'Adds a log to the <LogType> folder' -ForEach @(
+            @{LogType = 'VERB' ; Message = 'Verbose message'}
+            @{LogType = 'WARN' ; Message = 'Warning message'}
+            @{LogType = 'INFO' ; Message = 'Information message'}
+        ) {
+            $log = [MyLogger.Payload]::new($LogType,"This is a test $Message")
+            {(Get-Item LogDrive:\Logs\$LogType).SetContent($log)} | Should -Not -Throw
         }
-        It 'Increments the log count' {
-            # check the count property after you add a log
+        It 'Increments the total log count' {
+            # get the count properties of the folders EXCEPT the "ALL" folder
+            $Sum = (dir LogDrive:\Logs\ | where Name -ne 'ALL' | Measure-Object Count -Sum).Sum
+            # now get the count property of the "ALL" folder
+            $All = (Get-Item LogDrive:\Logs\ALL).Count
+            # and finally compare them
+            $Sum | Should -Be $All
         }
+    }
 }

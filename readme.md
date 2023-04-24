@@ -63,7 +63,19 @@ the module loaded beforehand in order to use the module's name as part of the ro
 
 You can also run the integration tests of the module on your own if you like, to make sure everything works as expected.
 ```PowerShell
-$path = 'C:\CoupaCode\MyGithubRepos\LogProvider\LogProvider.tests.ps1'
+$path = '.\LogProvider.tests.ps1'
 $test = Invoke-Pester -Path $path -PassThru -Output Detailed
 $test | select Result, ExecutedAt, TotalCount
 ```
+
+## Play the recorded demo
+
+You can play back the recorded demo that showcases the module and its functionality.  
+Which gives a better understanding on what this module does.  
+_Note: you'll need the Terminalizer node package for this._
+```PowerShell
+terminalizer play .\LogProvider.demo.yml
+
+# and the recording will start playing, which will take control of the terminal for a while
+```
+The demo is about 2 minutes in length.

@@ -1,0 +1,2480 @@
+# The configurations that used for the recording, feel free to edit them
+config:
+
+  command: pwsh.exe  
+  cwd: C:\CoupaCode\MyGithubRepos\LogProvider  
+  env:  
+    recording: true  
+  cols: 120  
+  rows: 45  
+  repeat: 0  
+  quality: 100  
+  frameDelay: auto  
+  maxIdleTime: 400  
+  frameBox:  
+    type: window  
+    title: PowerShell 7  
+    style:  
+      border: 0px solid rgb(0, 0, 0)  
+      boxShadow: 8px 8px 16px grey  
+  watermark:  
+    imagePath: null  
+  cursorStyle: underline  
+  fontFamily: "Consolas, Lucida Console, Monaco, Ubuntu Mono, Monospace"  
+  fontSize: 14  
+  lineHeight: 1  
+  letterSpacing: 0  
+  theme:  
+    background: "#282a48"  
+    foreground: "#eeedf0"  
+    cursor: "#c7c7c7"  
+    black: "#282a48"  
+    red: "#bf0000"  
+    green: "#008000"  
+    yellow: "#f2c800"  
+    blue: "#4472c4"  
+    magenta: "#8a3cc4"  
+    cyan: "#ff7e00"  
+    white: "#c0c0c0"  
+    brightBlack: "#808080"  
+    brightRed: "#fe2020"  
+    brightGreen: "#92d050"  
+    brightYellow: "#f2f200"  
+    brightBlue: "#3d94f3"  
+    brightMagenta: "#fe8cff"  
+    brightCyan: "#42e0d1"  
+    brightWhite: "#a8a8a8"
+# Records, feel free to edit them
+records:
+  - delay: 630
+    content: "\e[2J\e[m\e[HPowerShell 7.3.4\r\n\e]0;C:\\Program Files\\PowerShell\\7\\pwsh.exe\a\e[?25h"
+  - delay: 934
+    content: "\e[92mTotal profile load time: 0.6s\r\n"
+  - delay: 19
+    content: "\e[m"
+  - delay: 102
+    content: "Loading personal and system profiles took 864ms.\r\n"
+  - delay: 22
+    content: "\e]0;PowerShell 7.3.4 (00h00m)\a"
+  - delay: 26
+    content: "\e[38;2;192;192;176m[1t00\e[38;2;128;128;128m/\e[38;2;146;208;80m12:28:34\e[38;2;192;192;176m] \e[38;2;61;148;243mC:\\\e[38;2;238;237;240m>\e[m "
+  - delay: 4692
+    content: "\e[?25l"
+  - delay: 20
+    content: "\e[32m#\e[?25h"
+  - delay: 194
+    content: "\e[m\e[?25l"
+  - delay: 22
+    content: "\e[32m\b# \e[?25h"
+  - delay: 201
+    content: "\e[m\e[?25l"
+  - delay: 15
+    content: "\e[32m\e[4;22H# t\e[?25h"
+  - delay: 15
+    content: "\e[25l\e[m\e[32m\e[4;22H# th\e[?25h"
+  - delay: 96
+    content: "\e[m\e[?25l"
+  - delay: 11
+    content: "\e[32m\e[4;22H# thi\e[?25h"
+  - delay: 126
+    content: "\e[m\e[?25l"
+  - delay: 12
+    content: "\e[32m\e[4;22H# this\e[?25h"
+  - delay: 130
+    content: "\e[m\e[?25l"
+  - delay: 10
+    content: "\e[32m\e[4;22H# this \e[?25h"
+  - delay: 116
+    content: "\e[m\e[?25l"
+  - delay: 23
+    content: "\e[32m\e[4;22H# this i\e[?25h"
+  - delay: 61
+    content: "\e[m\e[?25l"
+  - delay: 16
+    content: "\e[32m\e[4;22H# this is\e[?25h"
+  - delay: 35
+    content: "\e[m\e[?25l"
+  - delay: 11
+    content: "\e[32m\e[4;22H# this is \e[?25h"
+  - delay: 193
+    content: "\e[m\e[?25l"
+  - delay: 8
+    content: "\e[32m\e[4;22H# this is m\e[?25h"
+  - delay: 97
+    content: "\e[m\e[?25l"
+  - delay: 11
+    content: "\e[32m\e[4;22H# this is my\e[?25h"
+  - delay: 34
+    content: "\e[m\e[?25l"
+  - delay: 13
+    content: "\e[32m\e[4;22H# this is my \e[?25h"
+  - delay: 334
+    content: "\e[m\e[?25l"
+  - delay: 20
+    content: "\e[32m\e[4;22H# this is my c\e[?25h"
+  - delay: 33
+    content: "\e[m\e[?25l"
+  - delay: 14
+    content: "\e[32m\e[4;22H# this is my cu\e[?25h"
+  - delay: 189
+    content: "\e[m\e[?25l"
+  - delay: 12
+    content: "\e[32m\e[4;22H# this is my cur\e[?25h"
+  - delay: 97
+    content: "\e[m\e[?25l"
+  - delay: 11
+    content: "\e[32m\e[4;22H# this is my curr\e[?25h"
+  - delay: 28
+    content: "\e[m\e[?25l"
+  - delay: 18
+    content: "\e[32m\e[4;22H# this is my curre\e[?25h"
+  - delay: 70
+    content: "\e[m\e[?25l"
+  - delay: 23
+    content: "\e[32m\e[4;22H# this is my curren\e[?25h"
+  - delay: 60
+    content: "\e[m\e[?25l"
+  - delay: 17
+    content: "\e[32m\e[4;22H# this is my current\e[?25h"
+  - delay: 72
+    content: "\e[m\e[?25l"
+  - delay: 21
+    content: "\e[32m\e[4;22H# this is my current \e[?25h"
+  - delay: 520
+    content: "\e[m\e[?25l"
+  - delay: 21
+    content: "\e[32m\e[4;22H# this is my current e\e[?25h"
+  - delay: 62
+    content: "\e[m\e[?25l"
+  - delay: 15
+    content: "\e[32m\e[4;22H# this is my current en\e[?25h"
+  - delay: 120
+    content: "\e[m\e[?25l"
+  - delay: 19
+    content: "\e[32m\e[4;22H# this is my current env\e[?25h"
+  - delay: 109
+    content: "\e[m\e[?25l"
+  - delay: 14
+    content: "\e[32m\e[4;22H# this is my current envi\e[?25h"
+  - delay: 413
+    content: "\e[m\e[?25l"
+  - delay: 20
+    content: "\e[32m\e[4;22H# this is my current envir\e[?25h"
+  - delay: 17
+    content: "\e[m\e[?25l"
+  - delay: 14
+    content: "\e[32m\e[4;22H# this is my current enviro\e[?25h"
+  - delay: 264
+    content: "\e[m\e[?25l"
+  - delay: 15
+    content: "\e[32m\e[4;22H# this is my current environ\e[?25h"
+  - delay: 202
+    content: "\e[m\e[?25l"
+  - delay: 14
+    content: "\e[32m\e[4;22H# this is my current environm\e[?25h"
+  - delay: 54
+    content: "\e[m\e[?25l"
+  - delay: 23
+    content: "\e[32m\e[4;22H# this is my current environme\e[?25h"
+  - delay: 59
+    content: "\e[m\e[?25l"
+  - delay: 18
+    content: "\e[32m\e[4;22H# this is my current environmen\e[?25h"
+  - delay: 72
+    content: "\e[m\e[?25l"
+  - delay: 21
+    content: "\e[32m\e[4;22H# this is my current environment\e[?25h"
+  - delay: 580
+    content: "\e[m"
+  - delay: 24
+    content: "\e[38;2;192;192;176m\r\n[2t00\e[38;2;128;128;128m/\e[38;2;146;208;80m12:28:44\e[38;2;192;192;176m] \e[38;2;61;148;243mC:\\\e[38;2;238;237;240m>\e[m "
+  - delay: 755
+    content: "\e[?25l"
+  - delay: 20
+    content: "\e[93mg\e[?25h"
+  - delay: 93
+    content: "\e[m\e[?25l"
+  - delay: 15
+    content: "\e[93m\bge\e[?25h"
+  - delay: 22
+    content: "\e[m\e[?25l"
+  - delay: 9
+    content: "\e[93m\e[5;22Hget\e[?25h"
+  - delay: 65
+    content: "\e[m\e[?25l"
+  - delay: 12
+    content: "\e[93m\e[5;22Hget-\e[?25h"
+  - delay: 170
+    content: "\e[m\e[?25l"
+  - delay: 16
+    content: "\e[93m\e[5;22Hget-d\e[?25h"
+  - delay: 27
+    content: "\e[m\e[?25l"
+  - delay: 20
+    content: "\e[93m\e[5;22Hget-da\e[?25h"
+  - delay: 71
+    content: "\e[m\e[?25l"
+  - delay: 22
+    content: "\e[93m\e[5;22Hget-dat\e[?25h"
+  - delay: 38
+    content: "\e[m\e[?25l"
+  - delay: 8
+    content: "\e[93m\e[5;22Hget-dater"
+  - delay: 16
+    content: "\e[m\e[?25h"
+  - delay: 563
+    content: "\e[?25l"
+  - delay: 10
+    content: "\e[93m\e[5;22Hget-date\e[m \b\e[?25h"
+  - delay: 171
+    content: "\e[25l\e[93m\e[5;22HGet-Date\e[?25h"
+  - delay: 357
+    content: "\e[m"
+  - delay: 15
+    content: "\e[25l\e[7;1H24 April 2023 12:28:46\e[9;1H\e[?25h"
+  - delay: 31
+    content: "\e[38;2;192;192;176m[3t00\e[38;2;128;128;128m/\e[38;2;146;208;80m12:28:46\e[38;2;192;192;176m] \e[38;2;61;148;243mC:\\\e[38;2;238;237;240m>\e[m "
+  - delay: 809
+    content: "\e[?25l"
+  - delay: 12
+    content: "\e[93m$\e[?25h"
+  - delay: 708
+    content: "\e[m\e[?25l"
+  - delay: 21
+    content: "\e[92m\b$p\e[?25h"
+  - delay: 15
+    content: "\e[25l\e[m\e[92m\e[9;22H$ps\e[?25h"
+  - delay: 196
+    content: "\e[m\e[?25l"
+  - delay: 21
+    content: "\e[92m\e[9;22H$psv\e[?25h"
+  - delay: 106
+    content: "\e[m\e[?25l"
+  - delay: 19
+    content: "\e[92m\e[9;22H$psve\e[?25h"
+  - delay: 15
+    content: "\e[25l\e[m\e[92m\e[9;22H$psver\e[?25h"
+  - delay: 132
+    content: "\e[m\e[?25l"
+  - delay: 23
+    content: "\e[92m\e[9;22H$psvers\e[?25h"
+  - delay: 97
+    content: "\e[m"
+  - delay: 105
+    content: "\e[25l\e[92m\e[9;22H$PSVersionTable\e[?25h"
+  - delay: 368
+    content: "\e[m"
+  - delay: 19
+    content: "\e[25l\e[1m\e[92m\e[11;1HName                           Value\e[m\e[23X\e[1m\e[92m\r\n----                           -----\e[m\e[23X\r\nPSVersion                      7.3.4\e[23X\r\nPSEdition                      Core\e[24X\r\nGitCommitId                    7.3.4\e[23X\r\nOS                             Microsoft Windows 10.0.19045\r\nPlatform                       Win32NT\e[21X\r\nPSCompatibleVersions           {1.0, 2.0, 3.0, 4.0…}       \r\nPSRemotingProtocolVersion      2.3\e[25X\r\nSerializationVersion           1.1.0.1\e[21X\r\nWSManStackVersion              3.0\e[25X\r\n\e[59X\e[38;2;192;192;176m\r\n[4t00\e[38;2;128;128;128m/\e[38;2;146;208;80m12:28:49\e[38;2;192;192;176m] \e[38;2;61;148;243mC:\\\e[38;2;238;237;240m>\e[m \e[38X\e[?25h"
+  - delay: 1845
+    content: "\e[38;2;192;192;176m\r\n[4t00\e[38;2;128;128;128m/\e[38;2;146;208;80m12:28:51\e[38;2;192;192;176m] \e[38;2;61;148;243mC:\\\e[38;2;238;237;240m>\e[m "
+  - delay: 573
+    content: "\e[?25l"
+  - delay: 15
+    content: "\e[32m#\e[?25h"
+  - delay: 53
+    content: "\e[m\e[?25l"
+  - delay: 10
+    content: "\e[32m\b# \e[?25h"
+  - delay: 282
+    content: "\e[m\e[?25l"
+  - delay: 12
+    content: "\e[32m\e[24;22H# f\e[?25h"
+  - delay: 70
+    content: "\e[m\e[?25l"
+  - delay: 23
+    content: "\e[32m\e[24;22H# fi\e[?25h"
+  - delay: 53
+    content: "\e[m\e[?25l"
+  - delay: 9
+    content: "\e[32m\e[24;22H# fir\e[?25h"
+  - delay: 119
+    content: "\e[m\e[?25l"
+  - delay: 20
+    content: "\e[32m\e[24;22H# firs\e[?25h"
+  - delay: 77
+    content: "\e[m\e[?25l"
+  - delay: 16
+    content: "\e[32m\e[24;22H# first\e[?25h"
+  - delay: 84
+    content: "\e[m\e[?25l"
+  - delay: 10
+    content: "\e[32m\e[24;22H# first \e[?25h"
+  - delay: 184
+    content: "\e[m\e[?25l"
+  - delay: 17
+    content: "\e[32m\e[24;22H# first l\e[?25h"
+  - delay: 169
+    content: "\e[m\e[?25l"
+  - delay: 17
+    content: "\e[32m\e[24;22H# first le\e[?25h"
+  - delay: 43
+    content: "\e[m\e[?25l"
+  - delay: 19
+    content: "\e[32m\e[24;22H# first let\e[?25h"
+  - delay: 175
+    content: "\e[m\e[?25l"
+  - delay: 11
+    content: "\e[32m\e[24;22H# first let'\e[?25h"
+  - delay: 231
+    content: "\e[m\e[?25l"
+  - delay: 17
+    content: "\e[32m\e[24;22H# first let's\e[?25h"
+  - delay: 49
+    content: "\e[m\e[?25l"
+  - delay: 13
+    content: "\e[32m\e[24;22H# first let's \e[?25h"
+  - delay: 925
+    content: "\e[m\e[?25l"
+  - delay: 20
+    content: "\e[32m\e[24;22H# first let's l\e[?25h"
+  - delay: 227
+    content: "\e[m\e[?25l"
+  - delay: 20
+    content: "\e[32m\e[24;22H# first let's lo\e[?25h"
+  - delay: 100
+    content: "\e[m\e[?25l"
+  - delay: 9
+    content: "\e[32m\e[24;22H# first let's loa\e[?25h"
+  - delay: 15
+    content: "\e[25l\e[m\e[32m\e[24;22H# first let's load\e[?25h"
+  - delay: 73
+    content: "\e[m\e[?25l"
+  - delay: 20
+    content: "\e[32m\e[24;22H# first let's load \e[?25h"
+  - delay: 93
+    content: "\e[m\e[?25l"
+  - delay: 16
+    content: "\e[32m\e[24;22H# first let's load t\e[?25h"
+  - delay: 15
+    content: "\e[25l\e[m\e[32m\e[24;22H# first let's load th\e[?25h"
+  - delay: 74
+    content: "\e[m\e[?25l"
+  - delay: 19
+    content: "\e[32m\e[24;22H# first let's load the\e[?25h"
+  - delay: 41
+    content: "\e[m\e[?25l"
+  - delay: 20
+    content: "\e[32m\e[24;22H# first let's load the \e[?25h"
+  - delay: 91
+    content: "\e[m\e[?25l"
+  - delay: 18
+    content: "\e[32m\e[24;22H# first let's load the m\e[?25h"
+  - delay: 50
+    content: "\e[m\e[?25l"
+  - delay: 12
+    content: "\e[32m\e[24;22H# first let's load the mo\e[?25h"
+  - delay: 78
+    content: "\e[m\e[?25l"
+  - delay: 15
+    content: "\e[32m\e[24;22H# first let's load the mod\e[?25h"
+  - delay: 51
+    content: "\e[m\e[?25l"
+  - delay: 11
+    content: "\e[32m\e[24;22H# first let's load the modu\e[?25h"
+  - delay: 73
+    content: "\e[m\e[?25l"
+  - delay: 20
+    content: "\e[32m\e[24;22H# first let's load the modul\e[?25h"
+  - delay: 62
+    content: "\e[m\e[?25l"
+  - delay: 15
+    content: "\e[32m\e[24;22H# first let's load the module\e[?25h"
+  - delay: 660
+    content: "\e[m"
+  - delay: 23
+    content: "\e[38;2;192;192;176m\r\n[5t00\e[38;2;128;128;128m/\e[38;2;146;208;80m12:28:56\e[38;2;192;192;176m] \e[38;2;61;148;243mC:\\\e[38;2;238;237;240m>\e[m "
+  - delay: 1575
+    content: "\e[?25l"
+  - delay: 21
+    content: "\e[93mc\e[?25h"
+  - delay: 15
+    content: "\e[m\e[93m\bcd"
+  - delay: 61
+    content: "\e[m\e[?25l"
+  - delay: 17
+    content: "\e[93m\e[25;22Hcd\e[m \e[?25h"
+  - delay: 177
+    content: "\e[?25l"
+  - delay: 9
+    content: "\e[93m\e[25;22Hcd\e[m c\e[?25h"
+  - delay: 90
+    content: "\e[?25l"
+  - delay: 18
+    content: "\e[93m\e[25;22Hcd\e[m c:\e[?25h"
+  - delay: 102
+    content: "\e[?25l"
+  - delay: 23
+    content: "\e[93m\e[25;22Hcd\e[m c:\\\e[?25h"
+  - delay: 682
+    content: "\e[?25l"
+  - delay: 15
+    content: "\e[93m\e[25;22Hcd\e[m c:\\c\e[?25h"
+  - delay: 15
+    content: "\e[25l\e[93m\e[25;22Hcd\e[m c:\\co\e[?25h"
+  - delay: 31
+    content: "\e[?25l"
+  - delay: 16
+    content: "\e[93m\e[25;22Hcd\e[m c:\\cou\e[?25h"
+  - delay: 186
+    content: "\e[25l\e[93m\e[25;22Hcd\e[m C:\\CoupaCode\\\e[?25h"
+  - delay: 817
+    content: "\e[?25l"
+  - delay: 20
+    content: "\e[93m\e[25;22Hcd\e[m C:\\CoupaCode\\m\e[?25h"
+  - delay: 123
+    content: "\e[?25l"
+  - delay: 16
+    content: "\e[93m\e[25;22Hcd\e[m C:\\CoupaCode\\my\e[?25h"
+  - delay: 215
+    content: "\e[?25l"
+  - delay: 17
+    content: "\e[93m\e[25;22Hcd\e[m C:\\CoupaCode\\myg\e[?25h"
+  - delay: 124
+    content: "\e[25l\e[93m\e[25;22Hcd\e[m C:\\CoupaCode\\MyGithubRepos\\\e[?25h"
+  - delay: 452
+    content: "\e[?25l"
+  - delay: 13
+    content: "\e[93m\e[25;22Hcd\e[m C:\\CoupaCode\\MyGithubRepos\\l\e[?25h"
+  - delay: 256
+    content: "\e[?25l"
+  - delay: 23
+    content: "\e[93m\e[25;22Hcd\e[m C:\\CoupaCode\\MyGithubRepos\\lo\e[?25h"
+  - delay: 82
+    content: "\e[?25l"
+  - delay: 11
+    content: "\e[93m\e[25;22Hcd\e[m C:\\CoupaCode\\MyGithubRepos\\log\e[?25h"
+  - delay: 356
+    content: "\e[25l\e[93m\e[25;22Hcd\e[m C:\\CoupaCode\\MyGithubRepos\\LogProvider\\\e[?25h"
+  - delay: 357
+    content: "\r\n"
+  - delay: 31
+    content: "\e[38;2;192;192;176m[6t00\e[38;2;128;128;128m/\e[38;2;146;208;80m12:29:02\e[38;2;128;128;128m/\e[38;2;255;126;0mmain\e[38;2;192;192;176m] \e[38;2;61;148;243mC:\\...MyGithubRepos\\LogProvider\e[38;2;238;237;240m>\e[m "
+  - delay: 852
+    content: "\e[?25l"
+  - delay: 16
+    content: "\e[93mi\e[?25h"
+  - delay: 19
+    content: "\e[m\e[?25l"
+  - delay: 12
+    content: "\e[93m\bim\e[?25h"
+  - delay: 170
+    content: "\e[m\e[?25l"
+  - delay: 16
+    content: "\e[93m\e[26;55Himp\e[?25h"
+  - delay: 15
+    content: "\e[25l\e[m\e[93m\e[26;55Himpo\e[?25h"
+  - delay: 186
+    content: "\e[m\e[?25l"
+  - delay: 16
+    content: "\e[93m\e[26;55Himpor\e[?25h"
+  - delay: 15
+    content: "\e[25l\e[m\e[93m\e[26;55Himport\e[?25h"
+  - delay: 50
+    content: "\e[m\e[?25l"
+  - delay: 13
+    content: "\e[93m\e[26;55Himport-\e[?25h"
+  - delay: 197
+    content: "\e[m\e[?25l"
+  - delay: 19
+    content: "\e[93m\e[26;55Himport-m\e[?25h"
+  - delay: 16
+    content: "\e[25l\e[m\e[93m\e[26;55Himport-mo\e[?25h"
+  - delay: 94
+    content: "\e[m\e[?25l"
+  - delay: 14
+    content: "\e[93m\e[26;55Himport-mod\e[?25h"
+  - delay: 61
+    content: "\e[m"
+  - delay: 64
+    content: "\e[25l\e[93m\e[26;55HImport-Module\e[?25h"
+  - delay: 49
+    content: "\e[m\e[?25l"
+  - delay: 12
+    content: "\e[93m\e[26;55HImport-Module\e[m \e[?25h"
+  - delay: 282
+    content: "\e[?25l"
+  - delay: 13
+    content: "\e[93m\e[26;55HImport-Module\e[m l\e[?25h"
+  - delay: 112
+    content: "\e[?25l"
+  - delay: 12
+    content: "\e[93m\e[26;55HImport-Module\e[m lo\e[?25h"
+  - delay: 65
+    content: "\e[?25l"
+  - delay: 12
+    content: "\e[93m\e[26;55HImport-Module\e[m log\e[?25h"
+  - delay: 436
+    content: "\e[?25l"
+  - delay: 13
+    content: "\e[93m\e[26;55HImport-Module\e[m logp\e[?25h"
+  - delay: 83
+    content: "\e[?25l"
+  - delay: 10
+    content: "\e[93m\e[26;55HImport-Module\e[m logpr\e[?25h"
+  - delay: 73
+    content: "\e[?25l"
+  - delay: 20
+    content: "\e[93m\e[26;55HImport-Module\e[m logpro\e[?25h"
+  - delay: 220
+    content: "\e[?25l"
+  - delay: 12
+    content: "\e[93m\e[26;55HImport-Module\e[m logprov\e[?25h"
+  - delay: 280
+    content: "\e[25l\e[93m\e[26;55HImport-Module\e[m .\\LogProvider.psd1\e[?25h"
+  - delay: 1208
+    content: "\r\n"
+  - delay: 543
+    content: "\e[38;2;192;192;176m[7t00.5\e[38;2;128;128;128m/\e[38;2;146;208;80m12:29:07\e[38;2;128;128;128m/\e[38;2;255;126;0mmain\e[38;2;192;192;176m] \e[38;2;61;148;243mC:\\...MyGithubRepos\\LogProvider\e[38;2;238;237;240m>\e[m "
+  - delay: 1335
+    content: "\e[?25l"
+  - delay: 11
+    content: "\e[93mg\e[?25h"
+  - delay: 634
+    content: "\e[m\e[?25l"
+  - delay: 15
+    content: "\e[93m\bge\e[?25h"
+  - delay: 28
+    content: "\e[m\e[?25l"
+  - delay: 19
+    content: "\e[93m\e[27;57Hget\e[?25h"
+  - delay: 56
+    content: "\e[m\e[?25l"
+  - delay: 22
+    content: "\e[93m\e[27;57Hget-\e[?25h"
+  - delay: 180
+    content: "\e[m\e[?25l"
+  - delay: 20
+    content: "\e[93m\e[27;57Hget-m\e[?25h"
+  - delay: 33
+    content: "\e[m\e[?25l"
+  - delay: 14
+    content: "\e[93m\e[27;57Hget-mo\e[?25h"
+  - delay: 221
+    content: "\e[m\e[?25l"
+  - delay: 10
+    content: "\e[93m\e[27;57Hget-mod\e[?25h"
+  - delay: 48
+    content: "\e[m\e[?25l"
+  - delay: 13
+    content: "\e[93m\e[27;57Hget-modu\e[?25h"
+  - delay: 75
+    content: "\e[m"
+  - delay: 80
+    content: "\e[25l\e[93m\e[27;57HGet-Module\e[?25h"
+  - delay: 184
+    content: "\e[m"
+  - delay: 18
+    content: "\r\n"
+  - delay: 15
+    content: "\e[25l\e[1m\e[92m\r\nModuleType Version    PreRelease Name                                ExportedCommands\e[m\e[K\e[1m\e[92m\r\n---------- -------    ---------- ----                                ----------------\e[m\e[K\r\nScript     0.0                   chocolateyProfile                   {TabExpansion, Update-SessionEnvironment, refresh…\r\nScript     0.0                   LogClass\e[28X\e[28C\e[K\r\nScript     1.0.0                 LogProvider\e[25X\e[25C\e[K\r\nManifest   7.0.0.0               Microsoft.PowerShell.Management     {Add-Content, Clear-Content, Clear-Item, Clear-It…\r\nManifest   7.0.0.0               Microsoft.PowerShell.Security       {ConvertFrom-SecureString, ConvertTo-SecureString…\r\nManifest   7.0.0.0               Microsoft.PowerShell.Utility        {Add-Member, Add-Type, Clear-Variable, Compare-Ob…\r\nManifest   7.0.0.0               Microsoft.WSMan.Management          {Connect-WSMan, Disable-WSManCredSSP, Disconnect-…\r\nManifest   1.0.0.0               NetTCPIP                            {Find-NetRoute, Get-NetCompartment, Get-NetIPAddr…\r\nScript     2.2.0      beta3      PSReadLine                          {Get-PSReadLineKeyHandler, Get-PSReadLineOption, …\r\nBinary     0.8.1                 SHiPS\e[31X\e[31C\e[K\e[42;1H\e[?25h"
+  - delay: 47
+    content: "\e[38;2;192;192;176m[8t00\e[38;2;128;128;128m/\e[38;2;146;208;80m12:29:10\e[38;2;128;128;128m/\e[38;2;255;126;0mmain\e[38;2;192;192;176m] \e[38;2;61;148;243mC:\\...MyGithubRepos\\LogProvider\e[38;2;238;237;240m>\e[m "
+  - delay: 7117
+    content: "\r\n"
+  - delay: 16
+    content: "\e[38;2;192;192;176m[8t00\e[38;2;128;128;128m/\e[38;2;146;208;80m12:29:18\e[38;2;128;128;128m/\e[38;2;255;126;0mmain\e[38;2;192;192;176m] \e[38;2;61;148;243mC:\\...MyGithubRepos\\LogProvider\e[38;2;238;237;240m>\e[m "
+  - delay: 587
+    content: "\e[?25l"
+  - delay: 16
+    content: "\e[32m#\e[?25h"
+  - delay: 276
+    content: "\e[m\e[?25l"
+  - delay: 19
+    content: "\e[32m\b# \e[?25h"
+  - delay: 183
+    content: "\e[m\e[?25l"
+  - delay: 18
+    content: "\e[32m\e[43;55H# n\e[?25h"
+  - delay: 42
+    content: "\e[m\e[?25l"
+  - delay: 20
+    content: "\e[32m\e[43;55H# no\e[?25h"
+  - delay: 101
+    content: "\e[m\e[?25l"
+  - delay: 23
+    content: "\e[32m\e[43;55H# now\e[?25h"
+  - delay: 45
+    content: "\e[m\e[?25l"
+  - delay: 17
+    content: "\e[32m\e[43;55H# now \e[?25h"
+  - delay: 1864
+    content: "\e[m\e[?25l"
+  - delay: 12
+    content: "\e[32m\e[43;55H# now c\e[?25h"
+  - delay: 214
+    content: "\e[m\e[?25l"
+  - delay: 18
+    content: "\e[32m\e[43;55H# now cr\e[?25h"
+  - delay: 35
+    content: "\e[m\e[?25l"
+  - delay: 11
+    content: "\e[32m\e[43;55H# now cre\e[?25h"
+  - delay: 139
+    content: "\e[m\e[?25l"
+  - delay: 16
+    content: "\e[32m\e[43;55H# now crea\e[?25h"
+  - delay: 208
+    content: "\e[m\e[?25l"
+  - delay: 10
+    content: "\e[32m\e[43;55H# now creat\e[?25h"
+  - delay: 43
+    content: "\e[m\e[?25l"
+  - delay: 19
+    content: "\e[32m\e[43;55H# now create\e[?25h"
+  - delay: 130
+    content: "\e[m\e[?25l"
+  - delay: 9
+    content: "\e[32m\e[43;55H# now create \e[?25h"
+  - delay: 111
+    content: "\e[m\e[?25l"
+  - delay: 13
+    content: "\e[32m\e[43;55H# now create a\e[?25h"
+  - delay: 1930
+    content: "\e[m\e[?25l"
+  - delay: 23
+    content: "\e[32m\e[43;55H# now create \e[m \b\e[?25h"
+  - delay: 150
+    content: "\e[?25l"
+  - delay: 20
+    content: "\e[32m\e[43;55H# now create t\e[?25h"
+  - delay: 39
+    content: "\e[m\e[?25l"
+  - delay: 24
+    content: "\e[32m\e[43;55H# now create th\e[?25h"
+  - delay: 30
+    content: "\e[m\e[?25l"
+  - delay: 16
+    content: "\e[32m\e[43;55H# now create the\e[?25h"
+  - delay: 50
+    content: "\e[m\e[?25l"
+  - delay: 12
+    content: "\e[32m\e[43;55H# now create the \e[?25h"
+  - delay: 492
+    content: "\e[m\e[?25l"
+  - delay: 20
+    content: "\e[32m\e[43;55H# now create the l\e[?25h"
+  - delay: 160
+    content: "\e[m\e[?25l"
+  - delay: 10
+    content: "\e[32m\e[43;55H# now create the lo\e[?25h"
+  - delay: 64
+    content: "\e[m\e[?25l"
+  - delay: 14
+    content: "\e[32m\e[43;55H# now create the log\e[?25h"
+  - delay: 47
+    content: "\e[m\e[?25l"
+  - delay: 14
+    content: "\e[32m\e[43;55H# now create the log \e[?25h"
+  - delay: 188
+    content: "\e[m\e[?25l"
+  - delay: 14
+    content: "\e[32m\e[43;55H# now create the log d\e[?25h"
+  - delay: 16
+    content: "\e[m\e[?25l"
+  - delay: 15
+    content: "\e[32m\e[43;55H# now create the log dr\e[?25h"
+  - delay: 82
+    content: "\e[m\e[?25l"
+  - delay: 11
+    content: "\e[32m\e[43;55H# now create the log dri\e[?25h"
+  - delay: 425
+    content: "\e[m\e[?25l"
+  - delay: 9
+    content: "\e[32m\e[43;55H# now create the log driv\e[?25h"
+  - delay: 28
+    content: "\e[m\e[?25l"
+  - delay: 18
+    content: "\e[32m\e[43;55H# now create the log drive\e[?25h"
+  - delay: 84
+    content: "\e[m"
+  - delay: 10
+    content: "\r\n"
+  - delay: 46
+    content: "\e[38;2;192;192;176m[9t00\e[38;2;128;128;128m/\e[38;2;146;208;80m12:29:26\e[38;2;128;128;128m/\e[38;2;255;126;0mmain\e[38;2;192;192;176m] \e[38;2;61;148;243mC:\\...MyGithubRepos\\LogProvider\e[38;2;238;237;240m>\e[m "
+  - delay: 1431
+    content: "\e[?25l"
+  - delay: 10
+    content: "\e[93mn\e[?25h"
+  - delay: 208
+    content: "\e[m\e[?25l"
+  - delay: 9
+    content: "\e[93m\bne\e[?25h"
+  - delay: 37
+    content: "\e[m\e[?25l"
+  - delay: 10
+    content: "\e[93m\e[44;55Hnew\e[?25h"
+  - delay: 41
+    content: "\e[m\e[?25l"
+  - delay: 21
+    content: "\e[93m\e[44;55Hnew-\e[?25h"
+  - delay: 107
+    content: "\e[m\e[?25l"
+  - delay: 17
+    content: "\e[93m\e[44;55Hnew-p\e[?25h"
+  - delay: 82
+    content: "\e[m\e[?25l"
+  - delay: 11
+    content: "\e[93m\e[44;55Hnew-ps\e[?25h"
+  - delay: 288
+    content: "\e[m\e[?25l"
+  - delay: 22
+    content: "\e[93m\e[44;55Hnew-psd\e[?25h"
+  - delay: 97
+    content: "\e[m\e[?25l"
+  - delay: 11
+    content: "\e[93m\e[44;55Hnew-psdr\e[?25h"
+  - delay: 72
+    content: "\e[m\e[?25l"
+  - delay: 21
+    content: "\e[93m\e[44;55Hnew-psdri\e[?25h"
+  - delay: 115
+    content: "\e[m"
+  - delay: 72
+    content: "\e[25l\e[93m\e[44;55HNew-PSDrive\e[?25h"
+  - delay: 385
+    content: "\e[m\e[?25l"
+  - delay: 17
+    content: "\e[93m\e[44;55HNew-PSDrive\e[m \e[?25h"
+  - delay: 73
+    content: "\e[?25l"
+  - delay: 20
+    content: "\e[93m\e[44;55HNew-PSDrive\e[m -\e[?25h"
+  - delay: 198
+    content: "\e[?25l"
+  - delay: 19
+    content: "\e[93m\e[44;55HNew-PSDrive\e[m \e[90m-n\e[?25h"
+  - delay: 26
+    content: "\e[m\e[?25l"
+  - delay: 21
+    content: "\e[93m\e[44;55HNew-PSDrive\e[m \e[90m-na\e[?25h"
+  - delay: 225
+    content: "\e[m"
+  - delay: 23
+    content: "\e[25l\e[93m\e[44;55HNew-PSDrive\e[m \e[90m-Name\e[?25h"
+  - delay: 76
+    content: "\e[m\e[?25l"
+  - delay: 17
+    content: "\e[93m\e[44;55HNew-PSDrive\e[m \e[90m-Name\e[m \e[?25h"
+  - delay: 477
+    content: "\e[?25l"
+  - delay: 19
+    content: "\e[93m\e[44;55HNew-PSDrive\e[m \e[90m-Name\e[m L\e[?25h"
+  - delay: 177
+    content: "\e[?25l"
+  - delay: 9
+    content: "\e[93m\e[44;55HNew-PSDrive\e[m \e[90m-Name\e[m Lo\e[?25h"
+  - delay: 58
+    content: "\e[?25l"
+  - delay: 19
+    content: "\e[93m\e[44;55HNew-PSDrive\e[m \e[90m-Name\e[m Log\e[?25h"
+  - delay: 219
+    content: "\e[?25l"
+  - delay: 13
+    content: "\e[93m\e[44;55HNew-PSDrive\e[m \e[90m-Name\e[m LogD\e[?25h"
+  - delay: 116
+    content: "\e[?25l"
+  - delay: 23
+    content: "\e[93m\e[44;55HNew-PSDrive\e[m \e[90m-Name\e[m LogDr\e[?25h"
+  - delay: 66
+    content: "\e[?25l"
+  - delay: 12
+    content: "\e[93m\e[44;55HNew-PSDrive\e[m \e[90m-Name\e[m LogDri\e[?25h"
+  - delay: 341
+    content: "\e[?25l"
+  - delay: 15
+    content: "\e[93m\e[44;55HNew-PSDrive\e[m \e[90m-Name\e[m LogDriv\e[?25h"
+  - delay: 45
+    content: "\e[?25l"
+  - delay: 17
+    content: "\e[93m\e[44;55HNew-PSDrive\e[m \e[90m-Name\e[m LogDrive\e[?25h"
+  - delay: 171
+    content: "\e[?25l"
+  - delay: 15
+    content: "\e[93m\e[44;55HNew-PSDrive\e[m \e[90m-Name\e[m LogDrive \e[?25h"
+  - delay: 209
+    content: "\e[?25l"
+  - delay: 24
+    content: "\e[93m\e[44;55HNew-PSDrive\e[m \e[90m-Name\e[m LogDrive -\e[?25h"
+  - delay: 261
+    content: "\e[?25l"
+  - delay: 18
+    content: "\e[93m\e[44;55HNew-PSDrive\e[m \e[90m-Name\e[m LogDrive \e[90m-p\e[?25h"
+  - delay: 49
+    content: "\e[m\e[?25l"
+  - delay: 13
+    content: "\e[93m\e[44;55HNew-PSDrive\e[m \e[90m-Name\e[m LogDrive \e[90m-ps\e[?25h"
+  - delay: 55
+    content: "\e[m\e[?25l"
+  - delay: 22
+    content: "\e[93m\e[44;55HNew-PSDrive\e[m \e[90m-Name\e[m LogDrive \e[90m-psp\e[?25h"
+  - delay: 128
+    content: "\e[m"
+  - delay: 12
+    content: "\e[25l\e[93m\e[44;55HNew-PSDrive\e[m \e[90m-Name\e[m LogDrive \e[90m-PSProvider\e[?25h"
+  - delay: 206
+    content: "\e[m\e[?25l"
+  - delay: 11
+    content: "\e[93m\e[44;55HNew-PSDrive\e[m \e[90m-Name\e[m LogDrive \e[90m-PSProvider\e[m \e[?25h"
+  - delay: 423
+    content: "\e[?25l"
+  - delay: 11
+    content: "\e[93m\e[44;55HNew-PSDrive\e[m \e[90m-Name\e[m LogDrive \e[90m-PSProvider\e[m s\e[?25h"
+  - delay: 37
+    content: "\e[?25l"
+  - delay: 10
+    content: "\e[93m\e[44;55HNew-PSDrive\e[m \e[90m-Name\e[m LogDrive \e[90m-PSProvider\e[m sh\e[?25h"
+  - delay: 61
+    content: "\e[25l\e[93m\e[44;55HNew-PSDrive\e[m \e[90m-Name\e[m LogDrive \e[90m-PSProvider\e[m SHiPS\e[?25h"
+  - delay: 1080
+    content: "\e[?25l"
+  - delay: 20
+    content: "\e[93m\e[44;55HNew-PSDrive\e[m \e[90m-Name\e[m LogDrive \e[90m-PSProvider\e[m SHiPS \e[?25h"
+  - delay: 448
+    content: "\e[?25l"
+  - delay: 17
+    content: "\e[93m\e[44;55HNew-PSDrive\e[m \e[90m-Name\e[m LogDrive \e[90m-PSProvider\e[m SHiPS -\e[?25h"
+  - delay: 186
+    content: "\e[?25l"
+  - delay: 16
+    content: "\e[93m\e[44;55HNew-PSDrive\e[m \e[90m-Name\e[m LogDrive \e[90m-PSProvider\e[m SHiPS \e[90m-r\e[?25h"
+  - delay: 28
+    content: "\e[m\e[?25l"
+  - delay: 18
+    content: "\e[93m\e[44;55HNew-PSDrive\e[m \e[90m-Name\e[m LogDrive \e[90m-PSProvider\e[m SHiPS \e[90m-ro\e[?25h"
+  - delay: 117
+    content: "\e[m"
+  - delay: 23
+    content: "\e[25l\e[93m\e[44;55HNew-PSDrive\e[m \e[90m-Name\e[m LogDrive \e[90m-PSProvider\e[m SHiPS \e[90m-Root\e[?25h"
+  - delay: 126
+    content: "\e[m\e[?25l"
+  - delay: 13
+    content: "\e[93m\e[44;55HNew-PSDrive\e[m \e[90m-Name\e[m LogDrive \e[90m-PSProvider\e[m SHiPS \e[90m-Root\e[m \e[?25h"
+  - delay: 701
+    content: "\e[?25l"
+  - delay: 12
+    content: "\e[93m\e[44;55HNew-PSDrive\e[m \e[90m-Name\e[m LogDrive \e[90m-PSProvider\e[m SHiPS \e[90m-Root\e[m L\e[?25h"
+  - delay: 204
+    content: "\e[?25l"
+  - delay: 13
+    content: "\e[93m\e[44;55HNew-PSDrive\e[m \e[90m-Name\e[m LogDrive \e[90m-PSProvider\e[m SHiPS \e[90m-Root\e[m Lo\e[?25h"
+  - delay: 357
+    content: "\e[?25l"
+  - delay: 15
+    content: "\e[93m\e[44;55HNew-PSDrive\e[m \e[90m-Name\e[m LogDrive \e[90m-PSProvider\e[m SHiPS \e[90m-Root\e[m Log\e[?25h"
+  - delay: 118
+    content: "\e[?25l"
+  - delay: 22
+    content: "\e[93m\e[44;55HNew-PSDrive\e[m \e[90m-Name\e[m LogDrive \e[90m-PSProvider\e[m SHiPS \e[90m-Root\e[m LogP\e[?25h"
+  - delay: 309
+    content: "\e[?25l"
+  - delay: 16
+    content: "\e[93m\e[44;55HNew-PSDrive\e[m \e[90m-Name\e[m LogDrive \e[90m-PSProvider\e[m SHiPS \e[90m-Root\e[m LogPr\e[?25h"
+  - delay: 358
+    content: "\e[?25l"
+  - delay: 14
+    content: "\e[93m\e[44;55HNew-PSDrive\e[m \e[90m-Name\e[m LogDrive \e[90m-PSProvider\e[m SHiPS \e[90m-Root\e[m LogPro\e[?25h"
+  - delay: 345
+    content: "\e[?25l"
+  - delay: 12
+    content: "\e[93m\e[44;55HNew-PSDrive\e[m \e[90m-Name\e[m LogDrive \e[90m-PSProvider\e[m SHiPS \e[90m-Root\e[m LogProv\e[?25h"
+  - delay: 65
+    content: "\e[?25l"
+  - delay: 12
+    content: "\e[93m\e[44;55HNew-PSDrive\e[m \e[90m-Name\e[m LogDrive \e[90m-PSProvider\e[m SHiPS \e[90m-Root\e[m LogProvi\e[?25h"
+  - delay: 83
+    content: "\e[?25l"
+  - delay: 10
+    content: "\e[93m\e[44;55HNew-PSDrive\e[m \e[90m-Name\e[m LogDrive \e[90m-PSProvider\e[m SHiPS \e[90m-Root\e[m LogProvid\e[?25h"
+  - delay: 230
+    content: "\e[?25l"
+  - delay: 18
+    content: "\e[93m\e[44;55HNew-PSDrive\e[m \e[90m-Name\e[m LogDrive \e[90m-PSProvider\e[m SHiPS \e[90m-Root\e[m LogProvide\e[?25h"
+  - delay: 27
+    content: "\e[?25l"
+  - delay: 19
+    content: "\e[93m\e[44;55HNew-PSDrive\e[m \e[90m-Name\e[m LogDrive \e[90m-PSProvider\e[m SHiPS \e[90m-Root\e[m LogProvider\e[?25h"
+  - delay: 267
+    content: "\e[?25l"
+  - delay: 12
+    content: "\e[93m\e[44;55HNew-PSDrive\e[m \e[90m-Name\e[m LogDrive \e[90m-PSProvider\e[m SHiPS \e[90m-Root\e[m LogProvider#\e[?25h"
+  - delay: 1000
+    content: "\e[?25l"
+  - delay: 23
+    content: "\e[93m\e[44;55HNew-PSDrive\e[m \e[90m-Name\e[m LogDrive \e[90m-PSProvider\e[m SHiPS \e[90m-Root\e[m LogProvider#L\e[?25h"
+  - delay: 240
+    content: "\e[?25l"
+  - delay: 9
+    content: "\e[93m\e[44;55HNew-PSDrive\e[m \e[90m-Name\e[m LogDrive \e[90m-PSProvider\e[m SHiPS \e[90m-Root\e[m LogProvider#Lo\e[?25h"
+  - delay: 103
+    content: "\e[?25l"
+  - delay: 21
+    content: "\e[93m\e[44;55HNew-PSDrive\e[m \e[90m-Name\e[m LogDrive \e[90m-PSProvider\e[m SHiPS \e[90m-Root\e[m LogProvider#Log\r\n\e[?25h"
+  - delay: 235
+    content: "\e[?25l"
+  - delay: 13
+    content: "\e[38;2;192;192;176m\e[44;1H[9t00\e[38;2;128;128;128m/\e[38;2;146;208;80m12:29:26\e[38;2;128;128;128m/\e[38;2;255;126;0mmain\e[38;2;192;192;176m] \e[38;2;61;148;243mC:\\...MyGithubRepos\\LogProvider\e[38;2;238;237;240m>\e[m \e[93mNew-PSDrive\e[m \e[90m-Name\e[m LogDrive \e[90m-PSProvider\e[m SHiPS \e[90m-Root\e[m LogProvider#Log\r\nR\e[K\e[?25h"
+  - delay: 159
+    content: "\e[?25l"
+  - delay: 11
+    content: "\e[38;2;192;192;176m\e[44;1H[9t00\e[38;2;128;128;128m/\e[38;2;146;208;80m12:29:26\e[38;2;128;128;128m/\e[38;2;255;126;0mmain\e[38;2;192;192;176m] \e[38;2;61;148;243mC:\\...MyGithubRepos\\LogProvider\e[38;2;238;237;240m>\e[m \e[93mNew-PSDrive\e[m \e[90m-Name\e[m LogDrive \e[90m-PSProvider\e[m SHiPS \e[90m-Root\e[m LogProvider#Log\r\nRo\e[K\e[?25h"
+  - delay: 79
+    content: "\e[?25l"
+  - delay: 14
+    content: "\e[38;2;192;192;176m\e[44;1H[9t00\e[38;2;128;128;128m/\e[38;2;146;208;80m12:29:26\e[38;2;128;128;128m/\e[38;2;255;126;0mmain\e[38;2;192;192;176m] \e[38;2;61;148;243mC:\\...MyGithubRepos\\LogProvider\e[38;2;238;237;240m>\e[m \e[93mNew-PSDrive\e[m \e[90m-Name\e[m LogDrive \e[90m-PSProvider\e[m SHiPS \e[90m-Root\e[m LogProvider#Log\r\nRoo\e[K\e[?25h"
+  - delay: 84
+    content: "\e[?25l"
+  - delay: 9
+    content: "\e[38;2;192;192;176m\e[44;1H[9t00\e[38;2;128;128;128m/\e[38;2;146;208;80m12:29:26\e[38;2;128;128;128m/\e[38;2;255;126;0mmain\e[38;2;192;192;176m] \e[38;2;61;148;243mC:\\...MyGithubRepos\\LogProvider\e[38;2;238;237;240m>\e[m \e[93mNew-PSDrive\e[m \e[90m-Name\e[m LogDrive \e[90m-PSProvider\e[m SHiPS \e[90m-Root\e[m LogProvider#Log\r\nRoot\e[K\e[?25h"
+  - delay: 3116
+    content: "\r\n"
+  - delay: 59
+    content: "\n\e[1m\e[92mName           Used (GB)     Free (GB) Provider      Root                                               CurrentLocation\r\e[m\n\e[1m\e[92m----           ---------     --------- --------      ----                                               ---------------\e[m \r\nLogDrive                               SHiPS         LogProvider#LogRoot\r\n"
+  - delay: 17
+    content: "\n\e]0;PowerShell 7.3.4 (00h01m)\a"
+  - delay: 31
+    content: "\e[38;2;192;192;176m[10t00.1\e[38;2;128;128;128m/\e[38;2;146;208;80m12:29:44\e[38;2;128;128;128m/\e[38;2;255;126;0mmain\e[38;2;192;192;176m] \e[38;2;61;148;243mC:\\...MyGithubRepos\\LogProvider\e[38;2;238;237;240m>\e[m "
+  - delay: 2147
+    content: "\r\n"
+  - delay: 16
+    content: "\e[38;2;192;192;176m[10t00.1\e[38;2;128;128;128m/\e[38;2;146;208;80m12:29:46\e[38;2;128;128;128m/\e[38;2;255;126;0mmain\e[38;2;192;192;176m] \e[38;2;61;148;243mC:\\...MyGithubRepos\\LogProvider\e[38;2;238;237;240m>\e[m "
+  - delay: 72
+    content: "\e[?25l"
+  - delay: 20
+    content: "\e[32m#\e[?25h"
+  - delay: 113
+    content: "\e[m\e[?25l"
+  - delay: 11
+    content: "\e[32m\b# \e[?25h"
+  - delay: 665
+    content: "\e[m\e[?25l"
+  - delay: 15
+    content: "\e[32m\e[45;58H# s\e[?25h"
+  - delay: 23
+    content: "\e[m\e[?25l"
+  - delay: 8
+    content: "\e[32m\e[45;58H# so\e[?25h"
+  - delay: 104
+    content: "\e[m\e[?25l"
+  - delay: 20
+    content: "\e[32m\e[45;58H# so \e[?25h"
+  - delay: 138
+    content: "\e[m\e[?25l"
+  - delay: 15
+    content: "\e[32m\e[45;58H# so l\e[?25h"
+  - delay: 119
+    content: "\e[m\e[?25l"
+  - delay: 20
+    content: "\e[32m\e[45;58H# so le\e[?25h"
+  - delay: 17
+    content: "\e[m\e[?25l"
+  - delay: 14
+    content: "\e[32m\e[45;58H# so let\e[?25h"
+  - delay: 53
+    content: "\e[m\e[?25l"
+  - delay: 9
+    content: "\e[32m\e[45;58H# so let'\e[?25h"
+  - delay: 104
+    content: "\e[m\e[?25l"
+  - delay: 19
+    content: "\e[32m\e[45;58H# so let's\e[?25h"
+  - delay: 56
+    content: "\e[m\e[?25l"
+  - delay: 21
+    content: "\e[32m\e[45;58H# so let's \e[?25h"
+  - delay: 166
+    content: "\e[m\e[?25l"
+  - delay: 19
+    content: "\e[32m\e[45;58H# so let's h\e[?25h"
+  - delay: 26
+    content: "\e[m\e[?25l"
+  - delay: 20
+    content: "\e[32m\e[45;58H# so let's ha\e[?25h"
+  - delay: 100
+    content: "\e[m\e[?25l"
+  - delay: 9
+    content: "\e[32m\e[45;58H# so let's hav\e[?25h"
+  - delay: 28
+    content: "\e[m\e[?25l"
+  - delay: 18
+    content: "\e[32m\e[45;58H# so let's have\e[?25h"
+  - delay: 15
+    content: "\e[25l\e[m\e[32m\e[45;58H# so let's have \e[?25h"
+  - delay: 118
+    content: "\e[m\e[?25l"
+  - delay: 21
+    content: "\e[32m\e[45;58H# so let's have a\e[?25h"
+  - delay: 16
+    content: "\e[m\e[?25l"
+  - delay: 15
+    content: "\e[32m\e[45;58H# so let's have a \e[?25h"
+  - delay: 430
+    content: "\e[m\e[?25l"
+  - delay: 19
+    content: "\e[32m\e[45;58H# so let's have a l\e[?25h"
+  - delay: 158
+    content: "\e[m\e[?25l"
+  - delay: 11
+    content: "\e[32m\e[45;58H# so let's have a lo\e[?25h"
+  - delay: 88
+    content: "\e[m\e[?25l"
+  - delay: 20
+    content: "\e[32m\e[45;58H# so let's have a loo\e[?25h"
+  - delay: 18
+    content: "\e[m\e[?25l"
+  - delay: 13
+    content: "\e[32m\e[45;58H# so let's have a look\e[?25h"
+  - delay: 210
+    content: "\e[m"
+  - delay: 22
+    content: "\r\n"
+  - delay: 15
+    content: "\e[38;2;192;192;176m[11t00\e[38;2;128;128;128m/\e[38;2;146;208;80m12:29:49\e[38;2;128;128;128m/\e[38;2;255;126;0mmain\e[38;2;192;192;176m] \e[38;2;61;148;243mC:\\...MyGithubRepos\\LogProvider\e[38;2;238;237;240m>\e[m "
+  - delay: 1636
+    content: "\e[?25l"
+  - delay: 18
+    content: "\e[93mc\e[?25h"
+  - delay: 20
+    content: "\e[m\e[?25l"
+  - delay: 11
+    content: "\e[93m\bcd\e[?25h"
+  - delay: 35
+    content: "\e[m\e[?25l"
+  - delay: 11
+    content: "\e[93m\e[45;56Hcd\e[m \e[?25h"
+  - delay: 116
+    content: "\e[?25l"
+  - delay: 24
+    content: "\e[93m\e[45;56Hcd\e[m l\e[?25h"
+  - delay: 155
+    content: "\e[?25l"
+  - delay: 15
+    content: "\e[93m\e[45;56Hcd\e[m lo\e[?25h"
+  - delay: 15
+    content: "\e[25l\e[93m\e[45;56Hcd\e[m log\e[?25h"
+  - delay: 308
+    content: "\e[?25l"
+  - delay: 18
+    content: "\e[93m\e[45;56Hcd\e[m logd\e[?25h"
+  - delay: 19
+    content: "\e[?25l"
+  - delay: 12
+    content: "\e[93m\e[45;56Hcd\e[m logdr\e[?25h"
+  - delay: 78
+    content: "\e[?25l"
+  - delay: 15
+    content: "\e[93m\e[45;56Hcd\e[m logdri\e[?25h"
+  - delay: 142
+    content: "\e[?25l"
+  - delay: 13
+    content: "\e[93m\e[45;56Hcd\e[m logdriv\e[?25h"
+  - delay: 34
+    content: "\e[?25l"
+  - delay: 12
+    content: "\e[93m\e[45;56Hcd\e[m logdrive\e[?25h"
+  - delay: 61
+    content: "\e[?25l"
+  - delay: 17
+    content: "\e[93m\e[45;56Hcd\e[m logdrive:\e[?25h"
+  - delay: 139
+    content: "\r\n"
+  - delay: 15
+    content: "\e[38;2;192;192;176m[12t00\e[38;2;128;128;128m/\e[38;2;146;208;80m12:29:52\e[38;2;192;192;176m] \e[38;2;61;148;243mLogDrive:\\\e[38;2;238;237;240m>\e[m "
+  - delay: 399
+    content: "\e[?25l"
+  - delay: 20
+    content: "\e[93md\e[?25h"
+  - delay: 79
+    content: "\e[m\e[?25l"
+  - delay: 14
+    content: "\e[93m\bdi\e[?25h"
+  - delay: 121
+    content: "\e[m\e[?25l"
+  - delay: 17
+    content: "\e[93m\e[45;30Hdir\e[?25h"
+  - delay: 89
+    content: "\e[m"
+  - delay: 19
+    content: "\r\n"
+  - delay: 11
+    content: "\n    Directory: LogDrive:\\\r\n\n\n\e[1m\e[92mItemType  Name    Count\e[m\e[K\r\n\e[1m\e[92m--------  ----    -----\e[m\e[K\r\nFolder    Logs    3\r\nFolder    Subs    0\r\n\n\e[38;2;192;192;176m[13t00\e[38;2;128;128;128m/\e[38;2;146;208;80m12:29:53\e[38;2;192;192;176m] \e[38;2;61;148;243mLogDrive:\\\e[38;2;238;237;240m>\e[m\e[K\e[1C"
+  - delay: 1892
+    content: "\e[?25l"
+  - delay: 15
+    content: "\e[93mc\e[?25h"
+  - delay: 15
+    content: "\e[m\e[93m\bcd"
+  - delay: 82
+    content: "\e[m\e[?25l"
+  - delay: 11
+    content: "\e[93m\e[45;30Hcd\e[m \e[?25h"
+  - delay: 80
+    content: "\e[?25l"
+  - delay: 13
+    content: "\e[93m\e[45;30Hcd\e[m l\e[?25h"
+  - delay: 152
+    content: "\e[?25l"
+  - delay: 19
+    content: "\e[93m\e[45;30Hcd\e[m lo\e[?25h"
+  - delay: 62
+    content: "\e[25l\e[93m\e[45;30Hcd\e[m .\\Logs\\\e[?25h"
+  - delay: 155
+    content: "\r\n\e[38;2;192;192;176m[14t00\e[38;2;128;128;128m/\e[38;2;146;208;80m12:29:55\e[38;2;192;192;176m] \e[38;2;61;148;243mLogDrive:\\Logs\e[38;2;238;237;240m>\e[m\e[K\e[1C"
+  - delay: 273
+    content: "\e[?25l"
+  - delay: 21
+    content: "\e[93md\e[?25h"
+  - delay: 24
+    content: "\e[m\e[?25l"
+  - delay: 23
+    content: "\e[93m\bdi\e[?25h"
+  - delay: 74
+    content: "\e[m\e[?25l"
+  - delay: 19
+    content: "\e[93m\e[45;34Hdir\e[?25h"
+  - delay: 41
+    content: "\e[m"
+  - delay: 21
+    content: "\r\n"
+  - delay: 24
+    content: "\n    Directory: LogDrive:\\Logs\r\n\n\n\e[1m\e[92mItemType  Name    Count  LastMessage\e[m\e[K\r\n\e[1m\e[92m--------  ----    -----  -----------\e[m\e[K\r\nFolder    \e[38;2;238;237;240mALL\e[m     3      11:29:43\e[K\r\nFolder    \e[38;2;61;148;243mVERB\e[m    1      11:29:43\e[K\r\nFolder    \e[38;2;240;230;140mWARN\e[m    1      11:29:43\e[K\r\nFolder    \e[38;2;146;208;80mINFO\e[m    1      11:29:43\e[K\r\n"
+  - delay: 20
+    content: "\n\e[38;2;192;192;176m[15t00\e[38;2;128;128;128m/\e[38;2;146;208;80m12:29:56\e[38;2;192;192;176m] \e[38;2;61;148;243mLogDrive:\\Logs\e[38;2;238;237;240m>\e[m\e[K\e[1C"
+  - delay: 2156
+    content: "\e[?25l"
+  - delay: 14
+    content: "\e[93mc\e[?25h"
+  - delay: 36
+    content: "\e[m\e[?25l"
+  - delay: 11
+    content: "\e[93m\bcd\e[?25h"
+  - delay: 27
+    content: "\e[m\e[?25l"
+  - delay: 19
+    content: "\e[93m\e[45;34Hcd\e[m \e[?25h"
+  - delay: 530
+    content: "\e[?25l"
+  - delay: 13
+    content: "\e[93m\e[45;34Hcd\e[m c\e[?25h"
+  - delay: 61
+    content: "\e[?25l"
+  - delay: 16
+    content: "\e[93m\e[45;34Hcd\e[m c:\e[?25h"
+  - delay: 171
+    content: "\r\n"
+  - delay: 15
+    content: "\e[38;2;192;192;176m[16t00\e[38;2;128;128;128m/\e[38;2;146;208;80m12:29:59\e[38;2;128;128;128m/\e[38;2;255;126;0mmain\e[38;2;192;192;176m] \e[38;2;61;148;243mC:\\...MyGithubRepos\\LogProvider\e[38;2;238;237;240m>\e[m "
+  - delay: 713
+    content: "\r\n"
+  - delay: 16
+    content: "\e[38;2;192;192;176m[16t00\e[38;2;128;128;128m/\e[38;2;146;208;80m12:29:59\e[38;2;128;128;128m/\e[38;2;255;126;0mmain\e[38;2;192;192;176m] \e[38;2;61;148;243mC:\\...MyGithubRepos\\LogProvider\e[38;2;238;237;240m>\e[m "
+  - delay: 1573
+    content: "\e[?25l"
+  - delay: 23
+    content: "\e[32m#\e[?25h"
+  - delay: 826
+    content: "\e[m\e[?25l"
+  - delay: 11
+    content: "\e[32m\b# \e[?25h"
+  - delay: 55
+    content: "\e[m\e[?25l"
+  - delay: 23
+    content: "\e[32m\e[45;56H# o\e[?25h"
+  - delay: 15
+    content: "\e[25l\e[m\e[32m\e[45;56H# ok\e[?25h"
+  - delay: 84
+    content: "\e[m\e[?25l"
+  - delay: 9
+    content: "\e[32m\e[45;56H# ok \e[?25h"
+  - delay: 928
+    content: "\e[m\e[?25l"
+  - delay: 18
+    content: "\e[32m\e[45;56H# ok s\e[?25h"
+  - delay: 56
+    content: "\e[m\e[?25l"
+  - delay: 21
+    content: "\e[32m\e[45;56H# ok so\e[?25h"
+  - delay: 640
+    content: "\e[m\e[?25l"
+  - delay: 11
+    content: "\e[32m\e[45;56H# ok so \e[?25h"
+  - delay: 297
+    content: "\e[m\e[?25l"
+  - delay: 13
+    content: "\e[32m\e[45;56H# ok so l\e[?25h"
+  - delay: 116
+    content: "\e[m\e[?25l"
+  - delay: 23
+    content: "\e[32m\e[45;56H# ok so le\e[?25h"
+  - delay: 19
+    content: "\e[m\e[?25l"
+  - delay: 12
+    content: "\e[32m\e[45;56H# ok so let\e[?25h"
+  - delay: 157
+    content: "\e[m\e[?25l"
+  - delay: 14
+    content: "\e[32m\e[45;56H# ok so let'\e[?25h"
+  - delay: 64
+    content: "\e[m\e[?25l"
+  - delay: 12
+    content: "\e[32m\e[45;56H# ok so let's\e[?25h"
+  - delay: 96
+    content: "\e[m\e[?25l"
+  - delay: 13
+    content: "\e[32m\e[45;56H# ok so let's \e[?25h"
+  - delay: 208
+    content: "\e[m\e[?25l"
+  - delay: 9
+    content: "\e[32m\e[45;56H# ok so let's a\e[?25h"
+  - delay: 172
+    content: "\e[m\e[?25l"
+  - delay: 14
+    content: "\e[32m\e[45;56H# ok so let's ad\e[?25h"
+  - delay: 91
+    content: "\e[m\e[?25l"
+  - delay: 17
+    content: "\e[32m\e[45;56H# ok so let's add\e[?25h"
+  - delay: 16
+    content: "\e[25l\e[m\e[32m\e[45;56H# ok so let's add \e[?25h"
+  - delay: 101
+    content: "\e[m\e[?25l"
+  - delay: 23
+    content: "\e[32m\e[45;56H# ok so let's add a\e[?25h"
+  - delay: 52
+    content: "\e[m\e[?25l"
+  - delay: 10
+    content: "\e[32m\e[45;56H# ok so let's add a \e[?25h"
+  - delay: 97
+    content: "\e[m\e[?25l"
+  - delay: 11
+    content: "\e[32m\e[45;56H# ok so let's add a l\e[?25h"
+  - delay: 273
+    content: "\e[m\e[?25l"
+  - delay: 22
+    content: "\e[32m\e[45;56H# ok so let's add a lo\e[?25h"
+  - delay: 100
+    content: "\e[m\e[?25l"
+  - delay: 8
+    content: "\e[32m\e[45;56H# ok so let's add a log\e[?25h"
+  - delay: 58
+    content: "\e[m\e[?25l"
+  - delay: 20
+    content: "\e[32m\e[45;56H# ok so let's add a log \e[?25h"
+  - delay: 160
+    content: "\e[m\e[?25l"
+  - delay: 10
+    content: "\e[32m\e[45;56H# ok so let's add a log n\e[?25h"
+  - delay: 50
+    content: "\e[m\e[?25l"
+  - delay: 12
+    content: "\e[32m\e[45;56H# ok so let's add a log no\e[?25h"
+  - delay: 72
+    content: "\e[m\e[?25l"
+  - delay: 21
+    content: "\e[32m\e[45;56H# ok so let's add a log now\e[?25h"
+  - delay: 360
+    content: "\e[m"
+  - delay: 12
+    content: "\r\n"
+  - delay: 47
+    content: "\e[38;2;192;192;176m[17t00\e[38;2;128;128;128m/\e[38;2;146;208;80m12:30:07\e[38;2;128;128;128m/\e[38;2;255;126;0mmain\e[38;2;192;192;176m] \e[38;2;61;148;243mC:\\...MyGithubRepos\\LogProvider\e[38;2;238;237;240m>\e[m "
+  - delay: 3114
+    content: "\e[?25l"
+  - delay: 17
+    content: "\e[93m$\e[?25h"
+  - delay: 163
+    content: "\e[m\e[?25l"
+  - delay: 23
+    content: "\e[92m\b$l\e[?25h"
+  - delay: 105
+    content: "\e[m\e[?25l"
+  - delay: 19
+    content: "\e[92m\e[45;56H$lo\e[?25h"
+  - delay: 86
+    content: "\e[m\e[?25l"
+  - delay: 22
+    content: "\e[92m\e[45;56H$log\e[?25h"
+  - delay: 329
+    content: "\e[m\e[?25l"
+  - delay: 12
+    content: "\e[92m\e[45;56H$log\e[m \e[?25h"
+  - delay: 26
+    content: "\e[?25l"
+  - delay: 21
+    content: "\e[92m\e[45;56H$log\e[m \e[90m=\e[?25h"
+  - delay: 53
+    content: "\e[m\e[?25l"
+  - delay: 9
+    content: "\e[92m\e[45;56H$log\e[m \e[90m=\e[m \e[?25h"
+  - delay: 561
+    content: "\e[?25l"
+  - delay: 12
+    content: "\e[92m\e[45;56H$log\e[m \e[90m=\e[m \e[93m[\e[?25h"
+  - delay: 289
+    content: "\e[m\e[?25l"
+  - delay: 21
+    content: "\e[92m\e[45;56H$log\e[m \e[90m=\e[m [m\e[?25h"
+  - delay: 347
+    content: "\e[?25l"
+  - delay: 10
+    content: "\e[92m\e[45;56H$log\e[m \e[90m=\e[m [my\e[?25h"
+  - delay: 436
+    content: "\e[?25l"
+  - delay: 13
+    content: "\e[92m\e[45;56H$log\e[m \e[90m=\e[m [myl\e[?25h"
+  - delay: 163
+    content: "\e[?25l"
+  - delay: 23
+    content: "\e[92m\e[45;56H$log\e[m \e[90m=\e[m [mylo\e[?25h"
+  - delay: 142
+    content: "\e[?25l"
+  - delay: 13
+    content: "\e[92m\e[45;56H$log\e[m \e[90m=\e[m [mylog\e[?25h"
+  - delay: 93
+    content: "\e[?25l"
+  - delay: 16
+    content: "\e[92m\e[45;56H$log\e[m \e[90m=\e[m [mylogg\e[?25h"
+  - delay: 310
+    content: "\e[25l\e[92m\e[45;56H$log\e[m \e[90m=\e[m [MyLogger.\e[?25h"
+  - delay: 56
+    content: "\e[?25l"
+  - delay: 21
+    content: "\e[92m\e[45;56H$log\e[m \e[90m=\e[m [MyLogger.p\e[?25h"
+  - delay: 45
+    content: "\e[?25l"
+  - delay: 17
+    content: "\e[92m\e[45;56H$log\e[m \e[90m=\e[m [MyLogger.pa\e[?25h"
+  - delay: 171
+    content: "\e[25l\e[92m\e[45;56H$log\e[m \e[90m=\e[m [MyLogger.Payload\e[?25h"
+  - delay: 739
+    content: "\e[?25l"
+  - delay: 20
+    content: "\e[92m\e[45;56H$log\e[m \e[90m=\e[m [MyLogger.Payload]\e[?25h"
+  - delay: 359
+    content: "\e[?25l"
+  - delay: 13
+    content: "\e[92m\e[45;56H$log\e[m \e[90m=\e[m [MyLogger.Payload]\e[93m:\e[?25h"
+  - delay: 99
+    content: "\e[m\e[?25l"
+  - delay: 10
+    content: "\e[92m\e[45;56H$log\e[m \e[90m=\e[m [MyLogger.Payload]::\e[?25h"
+  - delay: 200
+    content: "\e[?25l"
+  - delay: 17
+    content: "\e[92m\e[45;56H$log\e[m \e[90m=\e[m [MyLogger.Payload]::\e[97mn\e[?25h"
+  - delay: 15
+    content: "\e[25l\e[m\e[92m\e[45;56H$log\e[m \e[90m=\e[m [MyLogger.Payload]::\e[97mne\e[?25h"
+  - delay: 125
+    content: "\e[m"
+  - delay: 15
+    content: "\e[25l\e[92m\e[45;56H$log\e[m \e[90m=\e[m [MyLogger.Payload]::\e[97mnew\e[m(\e[?25h"
+  - delay: 753
+    content: "\e[?25l"
+  - delay: 22
+    content: "\e[92m\e[45;56H$log\e[m \e[90m=\e[m [MyLogger.Payload]::\e[97mnew\e[m(\e[36m'\e[?25h"
+  - delay: 666
+    content: "\e[m\e[?25l"
+  - delay: 16
+    content: "\e[92m\e[45;56H$log\e[m \e[90m=\e[m [MyLogger.Payload]::\e[97mnew\e[m(\e[36m'V\e[?25h"
+  - delay: 396
+    content: "\e[m\e[?25l"
+  - delay: 22
+    content: "\e[92m\e[45;56H$log\e[m \e[90m=\e[m [MyLogger.Payload]::\e[97mnew\e[m(\e[36m'VE\e[?25h"
+  - delay: 16
+    content: "\e[25l\e[m\e[92m\e[45;56H$log\e[m \e[90m=\e[m [MyLogger.Payload]::\e[97mnew\e[m(\e[36m'VER\e[?25h"
+  - delay: 189
+    content: "\e[m\e[?25l"
+  - delay: 12
+    content: "\e[92m\e[45;56H$log\e[m \e[90m=\e[m [MyLogger.Payload]::\e[97mnew\e[m(\e[36m'VERB\e[?25h"
+  - delay: 325
+    content: "\e[m\e[?25l"
+  - delay: 16
+    content: "\e[92m\e[45;56H$log\e[m \e[90m=\e[m [MyLogger.Payload]::\e[97mnew\e[m(\e[36m'VERB'\e[?25h"
+  - delay: 1101
+    content: "\e[m\e[?25l"
+  - delay: 13
+    content: "\e[92m\e[45;56H$log\e[m \e[90m=\e[m [MyLogger.Payload]::\e[97mnew\e[m(\e[36m'VERB'\e[90m,\e[?25h"
+  - delay: 520
+    content: "\e[m\e[?25l"
+  - delay: 20
+    content: "\e[92m\e[45;56H$log\e[m \e[90m=\e[m [MyLogger.Payload]::\e[97mnew\e[m(\e[36m'VERB'\e[90m,\e[36m'\e[?25h"
+  - delay: 257
+    content: "\e[m\e[?25l"
+  - delay: 21
+    content: "\e[92m\e[45;56H$log\e[m \e[90m=\e[m [MyLogger.Payload]::\e[97mnew\e[m(\e[36m'VERB'\e[90m,\e[36m't\e[?25h"
+  - delay: 30
+    content: "\e[m\e[?25l"
+  - delay: 16
+    content: "\e[92m\e[45;56H$log\e[m \e[90m=\e[m [MyLogger.Payload]::\e[97mnew\e[m(\e[36m'VERB'\e[90m,\e[36m'te\e[?25h"
+  - delay: 135
+    content: "\e[m\e[?25l"
+  - delay: 20
+    content: "\e[92m\e[45;56H$log\e[m \e[90m=\e[m [MyLogger.Payload]::\e[97mnew\e[m(\e[36m'VERB'\e[90m,\e[36m'tes\e[?25h"
+  - delay: 16
+    content: "\e[25l\e[m\e[92m\e[45;56H$log\e[m \e[90m=\e[m [MyLogger.Payload]::\e[97mnew\e[m(\e[36m'VERB'\e[90m,\e[36m'test\e[?25h"
+  - delay: 107
+    content: "\e[m\e[?25l"
+  - delay: 15
+    content: "\e[92m\e[45;56H$log\e[m \e[90m=\e[m [MyLogger.Payload]::\e[97mnew\e[m(\e[36m'VERB'\e[90m,\e[36m'test \e[?25h"
+  - delay: 157
+    content: "\e[m\e[?25l"
+  - delay: 13
+    content: "\e[92m\e[45;56H$log\e[m \e[90m=\e[m [MyLogger.Payload]::\e[97mnew\e[m(\e[36m'VERB'\e[90m,\e[36m'test m\e[?25h"
+  - delay: 76
+    content: "\e[m\e[?25l"
+  - delay: 17
+    content: "\e[92m\e[45;56H$log\e[m \e[90m=\e[m [MyLogger.Payload]::\e[97mnew\e[m(\e[36m'VERB'\e[90m,\e[36m'test me\e[?25h"
+  - delay: 187
+    content: "\e[m\e[?25l"
+  - delay: 12
+    content: "\e[92m\e[45;56H$log\e[m \e[90m=\e[m [MyLogger.Payload]::\e[97mnew\e[m(\e[36m'VERB'\e[90m,\e[36m'test mes\e[?25h"
+  - delay: 92
+    content: "\e[m\e[?25l"
+  - delay: 16
+    content: "\e[92m\e[45;56H$log\e[m \e[90m=\e[m [MyLogger.Payload]::\e[97mnew\e[m(\e[36m'VERB'\e[90m,\e[36m'test mess\e[?25h"
+  - delay: 65
+    content: "\e[m\e[?25l"
+  - delay: 12
+    content: "\e[92m\e[45;56H$log\e[m \e[90m=\e[m [MyLogger.Payload]::\e[97mnew\e[m(\e[36m'VERB'\e[90m,\e[36m'test messag\e[?25h"
+  - delay: 81
+    content: "\e[m\e[?25l"
+  - delay: 13
+    content: "\e[92m\e[45;56H$log\e[m \e[90m=\e[m [MyLogger.Payload]::\e[97mnew\e[m(\e[36m'VERB'\e[90m,\e[36m'test message\e[?25h"
+  - delay: 532
+    content: "\e[m\e[?25l"
+  - delay: 23
+    content: "\e[92m\e[45;56H$log\e[m \e[90m=\e[m [MyLogger.Payload]::\e[97mnew\e[m(\e[36m'VERB'\e[90m,\e[36m'test message'\e[32m#\e[?25h"
+  - delay: 802
+    content: "\e[m\e[?25l"
+  - delay: 18
+    content: "\e[92m\e[45;56H$log\e[m \e[90m=\e[m [MyLogger.Payload]::\e[97mnew\e[m(\e[36m'VERB'\e[90m,\e[36m'test message'\e[m \b\e[?25h"
+  - delay: 275
+    content: "\e[?25l"
+  - delay: 18
+    content: "\e[92m\e[45;56H$log\e[m \e[90m=\e[m [MyLogger.Payload]::\e[97mnew\e[m(\e[36m'VERB'\e[90m,\e[36m'test message'\e[m)\e[?25h"
+  - delay: 201
+    content: "\r\n"
+  - delay: 31
+    content: "\e[38;2;192;192;176m[18t00\e[38;2;128;128;128m/\e[38;2;146;208;80m12:30:22\e[38;2;128;128;128m/\e[38;2;255;126;0mmain\e[38;2;192;192;176m] \e[38;2;61;148;243mC:\\...MyGithubRepos\\LogProvider\e[38;2;238;237;240m>\e[m "
+  - delay: 1887
+    content: "\e[?25l"
+  - delay: 14
+    content: "\e[93mg\e[?25h"
+  - delay: 91
+    content: "\e[m\e[?25l"
+  - delay: 16
+    content: "\e[93m\bge\e[?25h"
+  - delay: 28
+    content: "\e[m\e[?25l"
+  - delay: 18
+    content: "\e[93m\e[45;56Hget\e[?25h"
+  - delay: 27
+    content: "\e[m\e[?25l"
+  - delay: 19
+    content: "\e[93m\e[45;56Hget-\e[?25h"
+  - delay: 108
+    content: "\e[m\e[?25l"
+  - delay: 15
+    content: "\e[93m\e[45;56Hget-i\e[?25h"
+  - delay: 45
+    content: "\e[m\e[?25l"
+  - delay: 17
+    content: "\e[93m\e[45;56Hget-it\e[?25h"
+  - delay: 43
+    content: "\e[m\e[?25l"
+  - delay: 19
+    content: "\e[93m\e[45;56Hget-ite\e[?25h"
+  - delay: 87
+    content: "\e[m\e[?25l"
+  - delay: 21
+    content: "\e[93m\e[45;56Hget-item\e[?25h"
+  - delay: 76
+    content: "\e[m"
+  - delay: 64
+    content: "\e[25l\e[93m\e[45;56HGet-Item\e[?25h"
+  - delay: 192
+    content: "\e[m\e[?25l"
+  - delay: 9
+    content: "\e[93m\e[45;56HGet-Item\e[m \e[?25h"
+  - delay: 751
+    content: "\e[?25l"
+  - delay: 20
+    content: "\e[93m\e[45;56HGet-Item\e[m l\e[?25h"
+  - delay: 142
+    content: "\e[?25l"
+  - delay: 12
+    content: "\e[93m\e[45;56HGet-Item\e[m lo\e[?25h"
+  - delay: 64
+    content: "\e[?25l"
+  - delay: 13
+    content: "\e[93m\e[45;56HGet-Item\e[m log\e[?25h"
+  - delay: 241
+    content: "\e[?25l"
+  - delay: 22
+    content: "\e[93m\e[45;56HGet-Item\e[m logdr\e[?25h"
+  - delay: 90
+    content: "\e[?25l"
+  - delay: 19
+    content: "\e[93m\e[45;56HGet-Item\e[m logdri\e[?25h"
+  - delay: 86
+    content: "\e[?25l"
+  - delay: 22
+    content: "\e[93m\e[45;56HGet-Item\e[m logdriv\e[?25h"
+  - delay: 38
+    content: "\e[?25l"
+  - delay: 24
+    content: "\e[93m\e[45;56HGet-Item\e[m logdrive\e[?25h"
+  - delay: 104
+    content: "\e[?25l"
+  - delay: 20
+    content: "\e[93m\e[45;56HGet-Item\e[m logdrive:\e[?25h"
+  - delay: 85
+    content: "\e[?25l"
+  - delay: 23
+    content: "\e[93m\e[45;56HGet-Item\e[m logdrive:\\\e[?25h"
+  - delay: 562
+    content: "\e[?25l"
+  - delay: 10
+    content: "\e[93m\e[45;56HGet-Item\e[m logdrive:\\l\e[?25h"
+  - delay: 118
+    content: "\e[?25l"
+  - delay: 22
+    content: "\e[93m\e[45;56HGet-Item\e[m logdrive:\\lo\e[?25h"
+  - delay: 62
+    content: "\e[25l\e[93m\e[45;56HGet-Item\e[m LogDrive:\\Logs\\\e[?25h"
+  - delay: 628
+    content: "\e[?25l"
+  - delay: 23
+    content: "\e[93m\e[45;56HGet-Item\e[m LogDrive:\\Logs\\v\e[?25h"
+  - delay: 111
+    content: "\e[?25l"
+  - delay: 13
+    content: "\e[93m\e[45;56HGet-Item\e[m LogDrive:\\Logs\\ve\e[?25h"
+  - delay: 25
+    content: "\e[?25l"
+  - delay: 21
+    content: "\e[93m\e[45;56HGet-Item\e[m LogDrive:\\Logs\\ver\e[?25h"
+  - delay: 465
+    content: "\e[25l\e[93m\e[45;56HGet-Item\e[m LogDrive:\\Logs\\VERB\\\e[?25h"
+  - delay: 228
+    content: "\e[25l\e[45;56H\e[?25h"
+  - delay: 751
+    content: "\e[?25l"
+  - delay: 13
+    content: "(\e[93mGet-Item\e[m LogDrive:\\Logs\\VERB\\\e[45;57H\e[?25h"
+  - delay: 67
+    content: "\e[29C"
+  - delay: 211
+    content: "\e[?25l"
+  - delay: 16
+    content: "\e[45;56H(\e[93mGet-Item\e[m LogDrive:\\Logs\\VERB\\)\e[?25h"
+  - delay: 523
+    content: "\e[?25l"
+  - delay: 20
+    content: "\e[45;56H(\e[93mGet-Item\e[m LogDrive:\\Logs\\VERB\\).\e[?25h"
+  - delay: 198
+    content: "\e[?25l"
+  - delay: 19
+    content: "\e[45;56H(\e[93mGet-Item\e[m LogDrive:\\Logs\\VERB\\).\e[97mS\e[?25h"
+  - delay: 274
+    content: "\e[m\e[?25l"
+  - delay: 20
+    content: "\e[45;56H(\e[93mGet-Item\e[m LogDrive:\\Logs\\VERB\\).\e[97mSe\e[?25h"
+  - delay: 154
+    content: "\e[m\e[?25l"
+  - delay: 17
+    content: "\e[45;56H(\e[93mGet-Item\e[m LogDrive:\\Logs\\VERB\\).\e[97mSet\e[?25h"
+  - delay: 251
+    content: "\e[m\e[?25l"
+  - delay: 12
+    content: "\e[45;56H(\e[93mGet-Item\e[m LogDrive:\\Logs\\VERB\\).\e[97mSetC\e[?25h"
+  - delay: 184
+    content: "\e[m\e[?25l"
+  - delay: 17
+    content: "\e[45;56H(\e[93mGet-Item\e[m LogDrive:\\Logs\\VERB\\).\e[97mSetCo\e[?25h"
+  - delay: 27
+    content: "\e[m\e[?25l"
+  - delay: 20
+    content: "\e[45;56H(\e[93mGet-Item\e[m LogDrive:\\Logs\\VERB\\).\e[97mSetCon\e[?25h"
+  - delay: 152
+    content: "\e[m\e[?25l"
+  - delay: 18
+    content: "\e[45;56H(\e[93mGet-Item\e[m LogDrive:\\Logs\\VERB\\).\e[97mSetCont\e[?25h"
+  - delay: 42
+    content: "\e[m\e[?25l"
+  - delay: 20
+    content: "\e[45;56H(\e[93mGet-Item\e[m LogDrive:\\Logs\\VERB\\).\e[97mSetConte\e[?25h"
+  - delay: 115
+    content: "\e[m\e[?25l"
+  - delay: 9
+    content: "\e[45;56H(\e[93mGet-Item\e[m LogDrive:\\Logs\\VERB\\).\e[97mSetConten\e[?25h"
+  - delay: 96
+    content: "\e[m\e[?25l"
+  - delay: 13
+    content: "\e[45;56H(\e[93mGet-Item\e[m LogDrive:\\Logs\\VERB\\).\e[97mSetContent\e[?25h"
+  - delay: 513
+    content: "\e[m\e[?25l"
+  - delay: 14
+    content: "\e[45;56H(\e[93mGet-Item\e[m LogDrive:\\Logs\\VERB\\).\e[97mSetContent\e[m(\e[?25h"
+  - delay: 369
+    content: "\e[?25l"
+  - delay: 18
+    content: "\e[45;56H(\e[93mGet-Item\e[m LogDrive:\\Logs\\VERB\\).\e[97mSetContent\e[m(\e[93m$\e[?25h"
+  - delay: 116
+    content: "\e[m\e[?25l"
+  - delay: 24
+    content: "\e[45;56H(\e[93mGet-Item\e[m LogDrive:\\Logs\\VERB\\).\e[97mSetContent\e[m(\e[92m$l\e[?25h"
+  - delay: 202
+    content: "\e[m\e[?25l"
+  - delay: 15
+    content: "\e[45;56H(\e[93mGet-Item\e[m LogDrive:\\Logs\\VERB\\).\e[97mSetContent\e[m(\e[92m$lo\e[?25h"
+  - delay: 134
+    content: "\e[m\e[?25l"
+  - delay: 21
+    content: "\e[45;56H(\e[93mGet-Item\e[m LogDrive:\\Logs\\VERB\\).\e[97mSetContent\e[m(\e[92m$log\e[?25h"
+  - delay: 618
+    content: "\e[m\e[?25l"
+  - delay: 17
+    content: "\e[45;56H(\e[93mGet-Item\e[m LogDrive:\\Logs\\VERB\\).\e[97mSetContent\e[m(\e[92m$log\e[m)\e[?25h"
+  - delay: 806
+    content: "\r\n\e]0;PowerShell 7.3.4 (00h02m)\a"
+  - delay: 16
+    content: "\e[38;2;192;192;176m[19t00\e[38;2;128;128;128m/\e[38;2;146;208;80m12:30:35\e[38;2;128;128;128m/\e[38;2;255;126;0mmain\e[38;2;192;192;176m] \e[38;2;61;148;243mC:\\...MyGithubRepos\\LogProvider\e[38;2;238;237;240m>\e[m "
+  - delay: 2108
+    content: "\r\n"
+  - delay: 46
+    content: "\e[38;2;192;192;176m[19t00\e[38;2;128;128;128m/\e[38;2;146;208;80m12:30:37\e[38;2;128;128;128m/\e[38;2;255;126;0mmain\e[38;2;192;192;176m] \e[38;2;61;148;243mC:\\...MyGithubRepos\\LogProvider\e[38;2;238;237;240m>\e[m "
+  - delay: 440
+    content: "\e[?25l"
+  - delay: 10
+    content: "\e[32m#\e[?25h"
+  - delay: 58
+    content: "\e[m\e[?25l"
+  - delay: 19
+    content: "\e[32m\b# \e[?25h"
+  - delay: 296
+    content: "\e[m\e[?25l"
+  - delay: 14
+    content: "\e[32m\e[45;56H# c\e[?25h"
+  - delay: 23
+    content: "\e[m\e[?25l"
+  - delay: 8
+    content: "\e[32m\e[45;56H# ch\e[?25h"
+  - delay: 54
+    content: "\e[m\e[?25l"
+  - delay: 8
+    content: "\e[32m\e[45;56H# che\e[?25h"
+  - delay: 28
+    content: "\e[m\e[?25l"
+  - delay: 19
+    content: "\e[32m\e[45;56H# chec\e[?25h"
+  - delay: 109
+    content: "\e[m\e[?25l"
+  - delay: 15
+    content: "\e[32m\e[45;56H# check\e[?25h"
+  - delay: 15
+    content: "\e[25l\e[m\e[32m\e[45;56H# check \e[?25h"
+  - delay: 497
+    content: "\e[m\e[?25l"
+  - delay: 15
+    content: "\e[32m\e[45;56H# check i\e[?25h"
+  - delay: 28
+    content: "\e[m\e[?25l"
+  - delay: 18
+    content: "\e[32m\e[45;56H# check it\e[?25h"
+  - delay: 71
+    content: "\e[m\e[?25l"
+  - delay: 22
+    content: "\e[32m\e[45;56H# check it \e[?25h"
+  - delay: 309
+    content: "\e[m\e[?25l"
+  - delay: 17
+    content: "\e[32m\e[45;56H# check it o\e[?25h"
+  - delay: 20
+    content: "\e[m\e[?25l"
+  - delay: 11
+    content: "\e[32m\e[45;56H# check it ou\e[?25h"
+  - delay: 636
+    content: "\e[m\e[?25l"
+  - delay: 15
+    content: "\e[32m\e[45;56H# check it out\e[?25h"
+  - delay: 20
+    content: "\e[m"
+  - delay: 11
+    content: "\r\n"
+  - delay: 62
+    content: "\e[38;2;192;192;176m[20t00\e[38;2;128;128;128m/\e[38;2;146;208;80m12:30:40\e[38;2;128;128;128m/\e[38;2;255;126;0mmain\e[38;2;192;192;176m] \e[38;2;61;148;243mC:\\...MyGithubRepos\\LogProvider\e[38;2;238;237;240m>\e[m "
+  - delay: 2276
+    content: "\e[?25l"
+  - delay: 18
+    content: "\e[93md\e[?25h"
+  - delay: 49
+    content: "\e[m\e[?25l"
+  - delay: 13
+    content: "\e[93m\bdi\e[?25h"
+  - delay: 51
+    content: "\e[m\e[?25l"
+  - delay: 11
+    content: "\e[93m\e[45;56Hdir\e[?25h"
+  - delay: 82
+    content: "\e[m\e[?25l"
+  - delay: 11
+    content: "\e[93m\e[45;56Hdir\e[m \e[?25h"
+  - delay: 292
+    content: "\e[?25l"
+  - delay: 18
+    content: "\e[93m\e[45;56Hdir\e[m l\e[?25h"
+  - delay: 137
+    content: "\e[?25l"
+  - delay: 18
+    content: "\e[93m\e[45;56Hdir\e[m lo\e[?25h"
+  - delay: 56
+    content: "\e[?25l"
+  - delay: 21
+    content: "\e[93m\e[45;56Hdir\e[m log\e[?25h"
+  - delay: 220
+    content: "\e[?25l"
+  - delay: 13
+    content: "\e[93m\e[45;56Hdir\e[m logd\e[?25h"
+  - delay: 17
+    content: "\e[?25l"
+  - delay: 14
+    content: "\e[93m\e[45;56Hdir\e[m logdr\e[?25h"
+  - delay: 76
+    content: "\e[?25l"
+  - delay: 17
+    content: "\e[93m\e[45;56Hdir\e[m logdri\e[?25h"
+  - delay: 80
+    content: "\e[?25l"
+  - delay: 13
+    content: "\e[93m\e[45;56Hdir\e[m logdriv\e[?25h"
+  - delay: 63
+    content: "\e[?25l"
+  - delay: 14
+    content: "\e[93m\e[45;56Hdir\e[m logdrive\e[?25h"
+  - delay: 391
+    content: "\e[?25l"
+  - delay: 12
+    content: "\e[93m\e[45;56Hdir\e[m logdrive:\e[?25h"
+  - delay: 56
+    content: "\e[?25l"
+  - delay: 22
+    content: "\e[93m\e[45;56Hdir\e[m logdrive:|\e[?25h"
+  - delay: 847
+    content: "\e[?25l"
+  - delay: 21
+    content: "\e[93m\e[45;56Hdir\e[m logdrive: \b\e[?25h"
+  - delay: 174
+    content: "\e[?25l"
+  - delay: 12
+    content: "\e[93m\e[45;56Hdir\e[m logdrive:\\\e[?25h"
+  - delay: 220
+    content: "\e[?25l"
+  - delay: 12
+    content: "\e[93m\e[45;56Hdir\e[m logdrive:\\l\e[?25h"
+  - delay: 124
+    content: "\e[25l\e[93m\e[45;56Hdir\e[m LogDrive:\\Logs\\\e[?25h"
+  - delay: 1315
+    content: "\r\n\n    Directory: C:\\CoupaCode\\MyGithubRepos\\LogProvider\r\n\n\n\e[1m\e[92mItemType  Name    Count  LastMessage\e[m\e[K\r\n\e[1m\e[92m--------  ----    -----  -----------\e[m\e[K\r\nFolder    \e[38;2;238;237;240mALL\e[m     4      11:30:22\e[K\r\nFolder    \e[38;2;61;148;243mVERB\e[m    2      11:30:22\e[K\r\nFolder    \e[38;2;240;230;140mWARN\e[m    1      11:29:43\e[K\r\nFolder    \e[38;2;146;208;80mINFO\e[m    1      11:29:43\e[K\r\n\n"
+  - delay: 31
+    content: "\e[38;2;192;192;176m[21t00\e[38;2;128;128;128m/\e[38;2;146;208;80m12:30:47\e[38;2;128;128;128m/\e[38;2;255;126;0mmain\e[38;2;192;192;176m] \e[38;2;61;148;243mC:\\...MyGithubRepos\\LogProvider\e[38;2;238;237;240m>\e[m "
+  - delay: 1179
+    content: "\e[?25l"
+  - delay: 14
+    content: "\e[93mdir\e[m LogDrive:\\Logs\\\e[?25h"
+  - delay: 697
+    content: "\e[?25l"
+  - delay: 16
+    content: "\e[93m\e[45;56Hdir\e[m LogDrive:\\Logs\\v\e[?25h"
+  - delay: 124
+    content: "\e[25l\e[93m\e[45;56Hdir\e[m LogDrive:\\Logs\\VERB\\\e[?25h"
+  - delay: 512
+    content: "\r\n\n\e[1m\e[92mComputerName     Type    Timestamp  Message\e[m\e[K\r\n\e[1m\e[92m------------     ----    ---------  -------\e[m\e[K\r\nDESKTOP\e[38;2;61;148;243m\e[10CVERB\e[m    11:29:43   Initialize PS Drive\e[K\r\nDESKTOP\e[38;2;61;148;243m\e[10CVERB\e[m    11:30:22   test message\e[K\r\n"
+  - delay: 11
+    content: |+
+
+  - delay: 31
+    content: "\e[38;2;192;192;176m[22t00\e[38;2;128;128;128m/\e[38;2;146;208;80m12:30:50\e[38;2;128;128;128m/\e[38;2;255;126;0mmain\e[38;2;192;192;176m] \e[38;2;61;148;243mC:\\...MyGithubRepos\\LogProvider\e[38;2;238;237;240m>\e[m "
+  - delay: 6761
+    content: "\r\n"
+  - delay: 16
+    content: "\e[38;2;192;192;176m[22t00\e[38;2;128;128;128m/\e[38;2;146;208;80m12:30:57\e[38;2;128;128;128m/\e[38;2;255;126;0mmain\e[38;2;192;192;176m] \e[38;2;61;148;243mC:\\...MyGithubRepos\\LogProvider\e[38;2;238;237;240m>\e[m "
+  - delay: 701
+    content: "\e[?25l"
+  - delay: 9
+    content: "\e[32m#\e[?25h"
+  - delay: 156
+    content: "\e[m\e[?25l"
+  - delay: 15
+    content: "\e[32m\b# \e[?25h"
+  - delay: 225
+    content: "\e[m\e[?25l"
+  - delay: 22
+    content: "\e[32m\e[45;56H# o\e[?25h"
+  - delay: 38
+    content: "\e[m\e[?25l"
+  - delay: 24
+    content: "\e[32m\e[45;56H# ok\e[?25h"
+  - delay: 54
+    content: "\e[m\e[?25l"
+  - delay: 23
+    content: "\e[32m\e[45;56H# ok \e[?25h"
+  - delay: 1617
+    content: "\e[m\e[?25l"
+  - delay: 22
+    content: "\e[32m\e[45;56H# ok s\e[?25h"
+  - delay: 795
+    content: "\e[m\e[?25l"
+  - delay: 9
+    content: "\e[32m\e[45;56H# ok \e[m \b\e[?25h"
+  - delay: 306
+    content: "\e[?25l"
+  - delay: 19
+    content: "\e[32m\e[45;56H# ok f\e[?25h"
+  - delay: 27
+    content: "\e[m\e[?25l"
+  - delay: 19
+    content: "\e[32m\e[45;56H# ok fiu\e[?25h"
+  - delay: 33
+    content: "\e[m\e[?25l"
+  - delay: 14
+    content: "\e[32m\e[45;56H# ok fiun\e[?25h"
+  - delay: 30
+    content: "\e[m\e[?25l"
+  - delay: 16
+    content: "\e[32m\e[45;56H# ok fiuna\e[?25h"
+  - delay: 99
+    content: "\e[m\e[?25l"
+  - delay: 9
+    content: "\e[32m\e[45;56H# ok fiunal\e[?25h"
+  - delay: 110
+    content: "\e[m\e[?25l"
+  - delay: 14
+    content: "\e[32m\e[45;56H# ok fiunall\e[?25h"
+  - delay: 45
+    content: "\e[m\e[?25l"
+  - delay: 17
+    content: "\e[32m\e[45;56H# ok fiunally\e[?25h"
+  - delay: 65
+    content: "\e[m\e[?25l"
+  - delay: 12
+    content: "\e[32m\e[45;56H# ok fiunally \e[?25h"
+  - delay: 1256
+    content: "\e[m\e[?25l"
+  - delay: 12
+    content: "\e[32m\e[45;56H# ok fiunally l\e[?25h"
+  - delay: 103
+    content: "\e[m\e[?25l"
+  - delay: 21
+    content: "\e[32m\e[45;56H# ok fiunally let\e[?25h"
+  - delay: 74
+    content: "\e[m\e[?25l"
+  - delay: 19
+    content: "\e[32m\e[45;56H# ok fiunally let'\e[?25h"
+  - delay: 64
+    content: "\e[m\e[?25l"
+  - delay: 14
+    content: "\e[32m\e[45;56H# ok fiunally let's\e[?25h"
+  - delay: 46
+    content: "\e[m\e[?25l"
+  - delay: 16
+    content: "\e[32m\e[45;56H# ok fiunally let's \e[?25h"
+  - delay: 1048
+    content: "\e[m\e[?25l"
+  - delay: 21
+    content: "\e[32m\e[45;56H# ok fiunally let's r\e[?25h"
+  - delay: 54
+    content: "\e[m\e[?25l"
+  - delay: 24
+    content: "\e[32m\e[45;56H# ok fiunally let's ru\e[?25h"
+  - delay: 44
+    content: "\e[m\e[?25l"
+  - delay: 18
+    content: "\e[32m\e[45;56H# ok fiunally let's run\e[?25h"
+  - delay: 49
+    content: "\e[m\e[?25l"
+  - delay: 13
+    content: "\e[32m\e[45;56H# ok fiunally let's run \e[?25h"
+  - delay: 63
+    content: "\e[m\e[?25l"
+  - delay: 14
+    content: "\e[32m\e[45;56H# ok fiunally let's run t\e[?25h"
+  - delay: 38
+    content: "\e[m\e[?25l"
+  - delay: 24
+    content: "\e[32m\e[45;56H# ok fiunally let's run th\e[?25h"
+  - delay: 44
+    content: "\e[m\e[?25l"
+  - delay: 18
+    content: "\e[32m\e[45;56H# ok fiunally let's run the\e[?25h"
+  - delay: 49
+    content: "\e[m\e[?25l"
+  - delay: 13
+    content: "\e[32m\e[45;56H# ok fiunally let's run the \e[?25h"
+  - delay: 504
+    content: "\e[m\e[?25l"
+  - delay: 23
+    content: "\e[32m\e[45;56H# ok fiunally let's run the i\e[?25h"
+  - delay: 22
+    content: "\e[m\e[?25l"
+  - delay: 9
+    content: "\e[32m\e[45;56H# ok fiunally let's run the in\e[?25h"
+  - delay: 36
+    content: "\e[m\e[?25l"
+  - delay: 11
+    content: "\e[32m\e[45;56H# ok fiunally let's run the int\e[?25h"
+  - delay: 49
+    content: "\e[m\e[?25l"
+  - delay: 13
+    content: "\e[32m\e[45;56H# ok fiunally let's run the inte\e[?25h"
+  - delay: 250
+    content: "\e[m\e[?25l"
+  - delay: 13
+    content: "\e[32m\e[45;56H# ok fiunally let's run the intefg\e[?25h"
+  - delay: 24
+    content: "\e[m\e[?25l"
+  - delay: 23
+    content: "\e[32m\e[45;56H# ok fiunally let's run the intefgr\e[?25h"
+  - delay: 157
+    content: "\e[m\e[?25l"
+  - delay: 13
+    content: "\e[32m\e[45;56H# ok fiunally let's run the intefgra\e[?25h"
+  - delay: 385
+    content: "\e[m\e[?25l"
+  - delay: 18
+    content: "\e[32m\e[45;56H# ok fiunally let's run the intefgr\e[m \b\e[?25h"
+  - delay: 113
+    content: "\e[?25l"
+  - delay: 10
+    content: "\e[32m\e[45;56H# ok fiunally let's run the intefg\e[m \b\e[?25h"
+  - delay: 120
+    content: "\e[?25l"
+  - delay: 20
+    content: "\e[32m\e[45;56H# ok fiunally let's run the intef\e[m \b\e[?25h"
+  - delay: 94
+    content: "\e[?25l"
+  - delay: 14
+    content: "\e[32m\e[45;56H# ok fiunally let's run the inte\e[m \b\e[?25h"
+  - delay: 203
+    content: "\e[?25l"
+  - delay: 14
+    content: "\e[32m\e[45;56H# ok fiunally let's run the integ\e[?25h"
+  - delay: 17
+    content: "\e[m\e[?25l"
+  - delay: 14
+    content: "\e[32m\e[45;56H# ok fiunally let's run the integr\e[?25h"
+  - delay: 158
+    content: "\e[m\e[?25l"
+  - delay: 13
+    content: "\e[32m\e[45;56H# ok fiunally let's run the integra\e[?25h"
+  - delay: 98
+    content: "\e[m\e[?25l"
+  - delay: 10
+    content: "\e[32m\e[45;56H# ok fiunally let's run the integrat\e[?25h"
+  - delay: 37
+    content: "\e[m\e[?25l"
+  - delay: 10
+    content: "\e[32m\e[45;56H# ok fiunally let's run the integrati\e[?25h"
+  - delay: 35
+    content: "\e[m\e[?25l"
+  - delay: 11
+    content: "\e[32m\e[45;56H# ok fiunally let's run the integratio\e[?25h"
+  - delay: 115
+    content: "\e[m\e[?25l"
+  - delay: 9
+    content: "\e[32m\e[45;56H# ok fiunally let's run the integration\e[?25h"
+  - delay: 67
+    content: "\e[m\e[?25l"
+  - delay: 11
+    content: "\e[32m\e[45;56H# ok fiunally let's run the integration \e[?25h"
+  - delay: 124
+    content: "\e[m\e[?25l"
+  - delay: 15
+    content: "\e[32m\e[45;56H# ok fiunally let's run the integration t\e[?25h"
+  - delay: 45
+    content: "\e[m\e[?25l"
+  - delay: 17
+    content: "\e[32m\e[45;56H# ok fiunally let's run the integration te\e[?25h"
+  - delay: 124
+    content: "\e[m\e[?25l"
+  - delay: 16
+    content: "\e[32m\e[45;56H# ok fiunally let's run the integration tes\e[?25h"
+  - delay: 52
+    content: "\e[m\e[?25l"
+  - delay: 10
+    content: "\e[32m\e[45;56H# ok fiunally let's run the integration test\e[?25h"
+  - delay: 127
+    content: "\e[m\e[?25l"
+  - delay: 12
+    content: "\e[32m\e[45;56H# ok fiunally let's run the integration tests\e[?25h"
+  - delay: 608
+    content: "\e[m"
+  - delay: 12
+    content: "\r\n"
+  - delay: 31
+    content: "\e[38;2;192;192;176m[23t00\e[38;2;128;128;128m/\e[38;2;146;208;80m12:31:08\e[38;2;128;128;128m/\e[38;2;255;126;0mmain\e[38;2;192;192;176m] \e[38;2;61;148;243mC:\\...MyGithubRepos\\LogProvider\e[38;2;238;237;240m>\e[m "
+  - delay: 1488
+    content: "\r\n"
+  - delay: 31
+    content: "\e[38;2;192;192;176m[23t00\e[38;2;128;128;128m/\e[38;2;146;208;80m12:31:10\e[38;2;128;128;128m/\e[38;2;255;126;0mmain\e[38;2;192;192;176m] \e[38;2;61;148;243mC:\\...MyGithubRepos\\LogProvider\e[38;2;238;237;240m>\e[m "
+  - delay: 667
+    content: "\e[?25l"
+  - delay: 15
+    content: "\e[93m$\e[?25h"
+  - delay: 277
+    content: "\e[m\e[?25l"
+  - delay: 18
+    content: "\e[92m\b$t\e[?25h"
+  - delay: 19
+    content: "\e[m\e[?25l"
+  - delay: 12
+    content: "\e[92m\e[45;56H$te\e[?25h"
+  - delay: 162
+    content: "\e[m\e[?25l"
+  - delay: 8
+    content: "\e[92m\e[45;56H$tes\e[?25h"
+  - delay: 36
+    content: "\e[m\e[?25l"
+  - delay: 11
+    content: "\e[92m\e[45;56H$test\e[?25h"
+  - delay: 806
+    content: "\e[m\e[?25l"
+  - delay: 15
+    content: "\e[92m\e[45;56H$test\e[m \e[?25h"
+  - delay: 98
+    content: "\e[?25l"
+  - delay: 11
+    content: "\e[92m\e[45;56H$test\e[m \e[90m=\e[?25h"
+  - delay: 42
+    content: "\e[m\e[?25l"
+  - delay: 20
+    content: "\e[92m\e[45;56H$test\e[m \e[90m=\e[m \e[?25h"
+  - delay: 339
+    content: "\e[?25l"
+  - delay: 17
+    content: "\e[92m\e[45;56H$test\e[m \e[90m=\e[m \e[93mi\e[?25h"
+  - delay: 21
+    content: "\e[m\e[?25l"
+  - delay: 10
+    content: "\e[92m\e[45;56H$test\e[m \e[90m=\e[m \e[93min\e[?25h"
+  - delay: 105
+    content: "\e[m\e[?25l"
+  - delay: 19
+    content: "\e[92m\e[45;56H$test\e[m \e[90m=\e[m \e[93minv\e[?25h"
+  - delay: 32
+    content: "\e[m\e[?25l"
+  - delay: 15
+    content: "\e[92m\e[45;56H$test\e[m \e[90m=\e[m \e[93minvo\e[?25h"
+  - delay: 44
+    content: "\e[m\e[?25l"
+  - delay: 18
+    content: "\e[92m\e[45;56H$test\e[m \e[90m=\e[m \e[93minvok\e[?25h"
+  - delay: 57
+    content: "\e[m\e[?25l"
+  - delay: 20
+    content: "\e[92m\e[45;56H$test\e[m \e[90m=\e[m \e[93minvoke\e[?25h"
+  - delay: 139
+    content: "\e[m\e[?25l"
+  - delay: 16
+    content: "\e[92m\e[45;56H$test\e[m \e[90m=\e[m \e[93minvoke-\e[?25h"
+  - delay: 208
+    content: "\e[m\e[?25l"
+  - delay: 9
+    content: "\e[92m\e[45;56H$test\e[m \e[90m=\e[m \e[93minvoke-p\e[?25h"
+  - delay: 133
+    content: "\e[m\e[?25l"
+  - delay: 22
+    content: "\e[92m\e[45;56H$test\e[m \e[90m=\e[m \e[93minvoke-pe\e[?25h"
+  - delay: 120
+    content: "\e[m\e[?25l"
+  - delay: 20
+    content: "\e[92m\e[45;56H$test\e[m \e[90m=\e[m \e[93minvoke-pes\e[?25h"
+  - delay: 115
+    content: "\e[m"
+  - delay: 71
+    content: "\e[25l\e[92m\e[45;56H$test\e[m \e[90m=\e[m \e[93mInvoke-Pester\e[?25h"
+  - delay: 852
+    content: "\e[m\e[?25l"
+  - delay: 16
+    content: "\e[92m\e[45;56H$test\e[m \e[90m=\e[m \e[93mInvoke-Pester\e[m \e[?25h"
+  - delay: 621
+    content: "\e[?25l"
+  - delay: 14
+    content: "\e[92m\e[45;56H$test\e[m \e[90m=\e[m \e[93mInvoke-Pester\e[m l\e[?25h"
+  - delay: 154
+    content: "\e[?25l"
+  - delay: 17
+    content: "\e[92m\e[45;56H$test\e[m \e[90m=\e[m \e[93mInvoke-Pester\e[m lo\e[?25h"
+  - delay: 258
+    content: "\e[?25l"
+  - delay: 21
+    content: "\e[92m\e[45;56H$test\e[m \e[90m=\e[m \e[93mInvoke-Pester\e[m log\e[?25h"
+  - delay: 91
+    content: "\e[?25l"
+  - delay: 17
+    content: "\e[92m\e[45;56H$test\e[m \e[90m=\e[m \e[93mInvoke-Pester\e[m logp\e[?25h"
+  - delay: 51
+    content: "\e[?25l"
+  - delay: 11
+    content: "\e[92m\e[45;56H$test\e[m \e[90m=\e[m \e[93mInvoke-Pester\e[m logpr\e[?25h"
+  - delay: 74
+    content: "\e[?25l"
+  - delay: 19
+    content: "\e[92m\e[45;56H$test\e[m \e[90m=\e[m \e[93mInvoke-Pester\e[m logpro\e[?25h"
+  - delay: 184
+    content: "\e[?25l"
+  - delay: 18
+    content: "\e[92m\e[45;56H$test\e[m \e[90m=\e[m \e[93mInvoke-Pester\e[m logprov\e[?25h"
+  - delay: 114
+    content: "\e[?25l"
+  - delay: 10
+    content: "\e[92m\e[45;56H$test\e[m \e[90m=\e[m \e[93mInvoke-Pester\e[m logprovi\e[?25h"
+  - delay: 3456
+    content: "\e[25l\e[92m\e[45;56H$test\e[m \e[90m=\e[m \e[93mInvoke-Pester\e[m .\\LogProvider.diagrams.drawio\e[?25h"
+  - delay: 1074
+    content: "\e[?25l"
+  - delay: 11
+    content: "\e[92m\e[45;56H$test\e[m \e[90m=\e[m \e[93mInvoke-Pester\e[m .\\LogProvider.formats.ps1xml \b\e[?25h"
+  - delay: 549
+    content: "\e[?25l"
+  - delay: 9
+    content: "\e[92m\e[45;56H$test\e[m \e[90m=\e[m \e[93mInvoke-Pester\e[m .\\LogProvider.psd1\e[10X\e[?25h"
+  - delay: 1424
+    content: "\e[?25l"
+  - delay: 17
+    content: "\e[92m\e[45;56H$test\e[m \e[90m=\e[m \e[93mInvoke-Pester\e[m .\\LogProvider.psm1\e[?25h"
+  - delay: 530
+    content: "\e[?25l"
+  - delay: 13
+    content: "\e[92m\e[45;56H$test\e[m \e[90m=\e[m \e[93mInvoke-Pester\e[m .\\LogProvider.tests.ps1\e[?25h"
+  - delay: 1803
+    content: "\e[?25l"
+  - delay: 11
+    content: "\e[92m\e[45;56H$test\e[m \e[90m=\e[m \e[93mInvoke-Pester\e[m .\\LogProvider.tests.ps1 \e[?25h"
+  - delay: 2036
+    content: "\e[?25l"
+  - delay: 9
+    content: "\e[92m\e[45;56H$test\e[m \e[90m=\e[m \e[93mInvoke-Pester\e[m .\\LogProvider.tests.ps1 -\e[?25h"
+  - delay: 225
+    content: "\e[?25l"
+  - delay: 22
+    content: "\e[92m\e[45;56H$test\e[m \e[90m=\e[m \e[93mInvoke-Pester\e[m .\\LogProvider.tests.ps1 \e[90m-p\e[?25h"
+  - delay: 59
+    content: "\e[m\e[?25l"
+  - delay: 18
+    content: "\e[92m\e[45;56H$test\e[m \e[90m=\e[m \e[93mInvoke-Pester\e[m .\\LogProvider.tests.ps1 \e[90m-pa\e[?25h"
+  - delay: 36
+    content: "\e[m\e[?25l"
+  - delay: 11
+    content: "\e[92m\e[45;56H$test\e[m \e[90m=\e[m \e[93mInvoke-Pester\e[m .\\LogProvider.tests.ps1 \e[90m-pas\e[?25h"
+  - delay: 92
+    content: "\e[m"
+  - delay: 16
+    content: "\e[25l\e[92m\e[45;56H$test\e[m \e[90m=\e[m \e[93mInvoke-Pester\e[m .\\LogProvider.tests.ps1 \e[90m-PassThru\e[?25h"
+  - delay: 735
+    content: "\e[m\e[?25l"
+  - delay: 23
+    content: "\e[92m\e[45;56H$test\e[m \e[90m=\e[m \e[93mInvoke-Pester\e[m .\\LogProvider.tests.ps1 \e[90m-PassThru\e[m \e[?25h"
+  - delay: 209
+    content: "\e[?25l"
+  - delay: 23
+    content: "\e[92m\e[45;56H$test\e[m \e[90m=\e[m \e[93mInvoke-Pester\e[m .\\LogProvider.tests.ps1 \e[90m-PassThru\e[m -\e[?25h"
+  - delay: 345
+    content: "\e[?25l"
+  - delay: 10
+    content: "\e[92m\e[45;56H$test\e[m \e[90m=\e[m \e[93mInvoke-Pester\e[m .\\LogProvider.tests.ps1 \e[90m-PassThru\e[m \e[90m-o\e[?25h"
+  - delay: 35
+    content: "\e[m\e[?25l"
+  - delay: 11
+    content: "\e[92m\e[45;56H$test\e[m \e[90m=\e[m \e[93mInvoke-Pester\e[m .\\LogProvider.tests.ps1 \e[90m-PassThru\e[m \e[90m-ou\e[?25h"
+  - delay: 49
+    content: "\e[m\e[?25l"
+  - delay: 14
+    content: "\e[92m\e[45;56H$test\e[m \e[90m=\e[m \e[93mInvoke-Pester\e[m .\\LogProvider.tests.ps1 \e[90m-PassThru\e[m \e[90m-out\e[?25h"
+  - delay: 157
+    content: "\e[m"
+  - delay: 13
+    content: "\e[25l\e[92m\e[45;56H$test\e[m \e[90m=\e[m \e[93mInvoke-Pester\e[m .\\LogProvider.tests.ps1 \e[90m-PassThru\e[m \e[90m-Output\e[?25h"
+  - delay: 48
+    content: "\e[m\e[?25l"
+  - delay: 14
+    content: "\e[92m\e[45;56H$test\e[m \e[90m=\e[m \e[93mInvoke-Pester\e[m .\\LogProvider.tests.ps1 \e[90m-PassThru\e[m \e[90m-Output\e[m \e[?25h"
+  - delay: 264
+    content: "\e[?25l\e[92m\e[45;56H$test\e[m \e[90m=\e[m \e[93mInvoke-Pester\e[m .\\LogProvider.tests.ps1 \e[90m-PassThru\e[m \e[90m-Output\e[m d"
+  - delay: 13
+    content: "\r\n\e[?25h"
+  - delay: 32
+    content: "\e[?25l"
+  - delay: 14
+    content: "\e[38;2;192;192;176m\e[44;1H[23t00\e[38;2;128;128;128m/\e[38;2;146;208;80m12:31:10\e[38;2;128;128;128m/\e[38;2;255;126;0mmain\e[38;2;192;192;176m] \e[38;2;61;148;243mC:\\...MyGithubRepos\\LogProvider\e[38;2;238;237;240m>\e[m \e[92m$test\e[m \e[90m=\e[m \e[93mInvoke-Pester\e[m .\\LogProvider.tests.ps1 \e[90m-PassThru\e[m \e[90m-Output\e[m d\r\ne\e[K\e[?25h"
+  - delay: 140
+    content: "\e[25l\e[38;2;192;192;176m\e[44;1H[23t00\e[38;2;128;128;128m/\e[38;2;146;208;80m12:31:10\e[38;2;128;128;128m/\e[38;2;255;126;0mmain\e[38;2;192;192;176m] \e[38;2;61;148;243mC:\\...MyGithubRepos\\LogProvider\e[38;2;238;237;240m>\e[m \e[92m$test\e[m \e[90m=\e[m \e[93mInvoke-Pester\e[m .\\LogProvider.tests.ps1 \e[90m-PassThru\e[m \e[90m-Output\e[m D\r\netailed\e[K\e[?25h"
+  - delay: 943
+    content: "\r\n"
+  - delay: 166
+    content: "\e[95mPester v5.4.1\r\e[m\n"
+  - delay: 11
+    content: "\e[95m\e[m\n\e[95mStarting discovery in 1 files.\r"
+  - delay: 9
+    content: "\e[m\n"
+  - delay: 155
+    content: "\e[95mDiscovery found 18 tests in 155ms.\r\e[m\n"
+  - delay: 9
+    content: "\e[95mRunning tests.\r"
+  - delay: 6
+    content: "\e[m\n\e[95m\e[m\n\e[95mRunning tests from 'C:\\CoupaCode\\MyGithubRepos\\LogProvider\\LogProvider.tests.ps1'\r"
+  - delay: 13
+    content: "\e[m\n"
+  - delay: 178
+    content: "\e[92mDescribing LogDrive\r\e[m\n\e[96m Context Basic PS Drive functionality\r"
+  - delay: 22
+    content: "\e[m\n"
+  - delay: 89
+    content: "\e[32m   [+] Creates a PS Drive\e[m\e[90m 111ms (65ms|46ms)\r"
+  - delay: 18
+    content: "\e[m\n\e[32m   [+] Sets the root to the \"module_name#class_name\" format\e[90m 7ms (7ms|1ms)\e[m\e[K\r\n"
+  - delay: 18
+    content: "\e[96m Context Root folder\r\e[m\n"
+  - delay: 13
+    content: "\e[32m   [+] Can access the Root of the Log drive\e[m\e[90m 13ms (11ms|1ms)\r"
+  - delay: 14
+    content: "\e[m\n\e[32m   [+] Finds a \"Logs\" item in the root drive\e[90m 12ms (10ms|2ms)\e[m\e[K\r\n"
+  - delay: 5
+    content: "\e[32m   [+] Finds a \"Subs\" item in the root drive\e[90m 5ms (4ms|1ms)\r"
+  - delay: 5
+    content: "\e[m\n\e[32m   [+] Confirms that the Logs item is a folder\e[90m 3ms (2ms|1ms)\e[m\e[K\r\n\e[32m   [+] Confirms that the Subs item is a folder\e[90m 1ms (1ms|0ms)\e[m\e[K\r\n\e[96m Context Logs subfolder\r"
+  - delay: 9
+    content: "\e[m\n\e[32m   [+] Can access the Logs subfolder\e[90m 8ms (7ms|1ms)\e[m\e[K\r\n"
+  - delay: 7
+    content: "\e[32m   [+] Finds the item \"ALL\" in the logs subfolder\e[90m 7ms (6ms|1ms)\r"
+  - delay: 7
+    content: "\e[m\n\e[32m   [+] Finds the item \"VERB\" in the logs subfolder\e[90m 5ms (5ms|0ms)\e[m\e[K\r\n"
+  - delay: 10
+    content: "\e[32m   [+] Finds the item \"WARN\" in the logs subfolder\e[90m 6ms (5ms|1ms)\r"
+  - delay: 5
+    content: "\e[m\n\e[32m   [+] Finds the item \"INFO\" in the logs subfolder\e[90m 6ms (6ms|1ms)\r"
+  - delay: 10
+    content: "\e[m\n\e[32m   [+] Confirms that all items are folders\e[90m 8ms (7ms|0ms)\e[m\e[K\r\n"
+  - delay: 15
+    content: "\e[32m   [+] Confirms that all items have the Count & the LastMessage property\e[90m 18ms (17ms|0ms)\r\e[m\n\e[96m Context Add logs to the drive\r"
+  - delay: 9
+    content: "\e[m\n\e[32m   [+] Adds a log to the VERB folder\e[90m 8ms (7ms|2ms)\e[m\e[K\r\n\e[32m   [+] Adds a log to the WARN folder\e[m\e[K\e[90m 2ms (2ms|1ms)\r"
+  - delay: 9
+    content: "\e[m\n\e[32m   [+] Adds a log to the INFO folder\e[90m 7ms (6ms|1ms)\e[m\e[K\r"
+  - delay: 6
+    content: |+
+
+  - delay: 6
+    content: "\e[32m   [+] Increments the total log count\e[90m 11ms (10ms|0ms)\r"
+  - delay: 10
+    content: "\e[m\n"
+  - delay: 117
+    content: "\e[97mTests completed in 741ms\r\e[m\n"
+  - delay: 7
+    content: "\e[32mTests Passed: 18, \e[90mFailed: 0, Skipped: 0 NotRun: 0\r"
+  - delay: 15
+    content: "\e[m\n"
+  - delay: 47
+    content: "\e[38;2;192;192;176m[24t01\e[38;2;128;128;128m/\e[38;2;146;208;80m12:31:32\e[38;2;128;128;128m/\e[38;2;255;126;0mmain\e[38;2;192;192;176m] \e[38;2;61;148;243mC:\\...MyGithubRepos\\LogProvider\e[38;2;238;237;240m>\e[m "
+  - delay: 1824
+    content: "\r\n\e]0;PowerShell 7.3.4 (00h03m)\a"
+  - delay: 15
+    content: "\e[38;2;192;192;176m[24t01\e[38;2;128;128;128m/\e[38;2;146;208;80m12:31:33\e[38;2;128;128;128m/\e[38;2;255;126;0mmain\e[38;2;192;192;176m] \e[38;2;61;148;243mC:\\...MyGithubRepos\\LogProvider\e[38;2;238;237;240m>\e[m "
+  - delay: 405
+    content: "\e[?25l"
+  - delay: 13
+    content: "\e[93m$\e[?25h"
+  - delay: 219
+    content: "\e[m\e[?25l"
+  - delay: 14
+    content: "\e[92m\b$t\e[?25h"
+  - delay: 31
+    content: "\e[m\e[?25l"
+  - delay: 15
+    content: "\e[92m\e[45;56H$te\e[?25h"
+  - delay: 158
+    content: "\e[m\e[?25l"
+  - delay: 13
+    content: "\e[92m\e[45;56H$tes\e[?25h"
+  - delay: 15
+    content: "\e[25l\e[m\e[92m\e[45;56H$test\e[?25h"
+  - delay: 458
+    content: "\e[m\e[?25l"
+  - delay: 21
+    content: "\e[92m\e[45;56H$test\e[m \e[?25h"
+  - delay: 114
+    content: "\e[?25l"
+  - delay: 10
+    content: "\e[92m\e[45;56H$test\e[m |\e[?25h"
+  - delay: 68
+    content: "\e[?25l"
+  - delay: 9
+    content: "\e[92m\e[45;56H$test\e[m | \e[?25h"
+  - delay: 551
+    content: "\e[?25l"
+  - delay: 19
+    content: "\e[92m\e[45;56H$test\e[m | \e[93ms\e[?25h"
+  - delay: 176
+    content: "\e[m\e[?25l"
+  - delay: 10
+    content: "\e[92m\e[45;56H$test\e[m | \e[93mse\e[?25h"
+  - delay: 42
+    content: "\e[m\e[?25l"
+  - delay: 19
+    content: "\e[92m\e[45;56H$test\e[m | \e[93msel\e[?25h"
+  - delay: 19
+    content: "\e[m\e[?25l"
+  - delay: 12
+    content: "\e[92m\e[45;56H$test\e[m | \e[93msele\e[?25h"
+  - delay: 453
+    content: "\e[m"
+  - delay: 73
+    content: "\e[25l\e[92m\e[45;56H$test\e[m | \e[93mselect\e[?25h"
+  - delay: 619
+    content: "\e[m\e[?25l"
+  - delay: 16
+    content: "\e[92m\e[45;56H$test\e[m | \e[93mselect\e[m \e[?25h"
+  - delay: 575
+    content: "\e[?25l"
+  - delay: 14
+    content: "\e[92m\e[45;56H$test\e[m | \e[93mselect\e[m r\e[?25h"
+  - delay: 15
+    content: "\e[25l\e[92m\e[45;56H$test\e[m | \e[93mselect\e[m re\e[?25h"
+  - delay: 143
+    content: "\e[?25l"
+  - delay: 12
+    content: "\e[92m\e[45;56H$test\e[m | \e[93mselect\e[m res\e[?25h"
+  - delay: 140
+    content: "\e[25l\e[92m\e[45;56H$test\e[m | \e[93mselect\e[m Result\e[?25h"
+  - delay: 599
+    content: "\e[?25l"
+  - delay: 21
+    content: "\e[92m\e[45;56H$test\e[m | \e[93mselect\e[m Result\e[90m,\e[?25h"
+  - delay: 466
+    content: "\e[m\e[?25l"
+  - delay: 14
+    content: "\e[92m\e[45;56H$test\e[m | \e[93mselect\e[m Result\e[90m,\e[me\e[?25h"
+  - delay: 143
+    content: "\e[?25l"
+  - delay: 12
+    content: "\e[92m\e[45;56H$test\e[m | \e[93mselect\e[m Result\e[90m,\e[mex\e[?25h"
+  - delay: 176
+    content: "\e[?25l"
+  - delay: 10
+    content: "\e[92m\e[45;56H$test\e[m | \e[93mselect\e[m Result\e[90m,\e[mexe\e[?25h"
+  - delay: 192
+    content: "\e[?25l"
+  - delay: 10
+    content: "\e[92m\e[45;56H$test\e[m | \e[93mselect\e[m Result\e[90m,\e[mexec\e[?25h"
+  - delay: 449
+    content: "\e[25l\e[92m\e[45;56H$test\e[m | \e[93mselect\e[m Result\e[90m,\e[mExecuted\e[?25h"
+  - delay: 329
+    content: "\e[?25l"
+  - delay: 12
+    content: "\e[92m\e[45;56H$test\e[m | \e[93mselect\e[m Result\e[90m,\e[mExecuted\e[90m,\e[?25h"
+  - delay: 445
+    content: "\e[m\e[?25l"
+  - delay: 20
+    content: "\e[92m\e[45;56H$test\e[m | \e[93mselect\e[m Result\e[90m,\e[mExecuted\e[90m,\e[mt\e[?25h"
+  - delay: 16
+    content: "\e[25l\e[92m\e[45;56H$test\e[m | \e[93mselect\e[m Result\e[90m,\e[mExecuted\e[90m,\e[mto\e[?25h"
+  - delay: 63
+    content: "\e[?25l"
+  - delay: 14
+    content: "\e[92m\e[45;56H$test\e[m | \e[93mselect\e[m Result\e[90m,\e[mExecuted\e[90m,\e[mtot\e[?25h"
+  - delay: 295
+    content: "\e[25l\e[92m\e[45;56H$test\e[m | \e[93mselect\e[m Result\e[90m,\e[mExecuted\e[90m,\e[mTotalCount\e[?25h"
+  - delay: 1016
+    content: "\r\n\n\e[1m\e[92mResult Executed TotalCount\e[m\e[K\r\n\e[1m\e[92m------ -------- ----------\e[m\e[K\r\nPassed     True         18\r\n"
+  - delay: 6
+    content: |+
+
+  - delay: 46
+    content: "\e[38;2;192;192;176m[25t00\e[38;2;128;128;128m/\e[38;2;146;208;80m12:31:42\e[38;2;128;128;128m/\e[38;2;255;126;0mmain\e[38;2;192;192;176m] \e[38;2;61;148;243mC:\\...MyGithubRepos\\LogProvider\e[38;2;238;237;240m>\e[m "
+  - delay: 2146
+    content: "\e[?25l"
+  - delay: 9
+    content: "\e[93ml\e[?25h"
+  - delay: 36
+    content: "\e[m"
+  - delay: 10
+    content: "\r\n"
+  - delay: 23
+    content: "\e[32m\n    Directory: C:\\CoupaCode\\MyGithubRepos\\LogProvider\r\n\e[m\n\e[1m\e[92mMode                 LastWriteTime         Length Name\e[22m\e[32m\e[K\r\e[m\n\e[1m\e[92m----                 -------------         ------ ----\e[m\e[K\r\nd--h-          24/04/2023    11:41\e[1m\e[97m\e[44m\e[16C.git\e[m\e[K\r\n\e[94m-a---          24/04/2023    12:28           1563 \e[1m\e[93mHow-To-Use-Example.ps1\e[m\e[K\r\n-a---          22/04/2023    19:53           1046 LogClass.cs\e[K\r\n\e[94m-a---          23/04/2023    17:51           3120 \e[1m\e[93mLogClass.formats.ps1xml\e[m\e[K\r\n\e[94m-a---          22/04/2023    19:53            169 \e[1m\e[93mLogClass.ps1\e[m\e[K\r\n-a---          24/04/2023    11:40          26817 LogProvider.diagrams.drawio\e[K\r\n\e[94m-a---          23/04/2023    17:45           4847 \e[1m\e[93mLogProvider.formats.ps1xml\e[m\e[K\r\n\e[94m-a---          22/04/2023    19:53            475 \e[1m\e[93mLogProvider.psd1\e[m\e[K\r\n\e[94m-a---          23/04/2023    10:01           3945 \e[1m\e[93mLogProvider.psm1\e[m\e[K\r\n\e[94m-a---          24/04/2023    10:32           3025 \e[1m\e[93mLogProvider.tests.ps1\e[m\e[K\r\n-a---          24/04/2023    12:17          97732 mytest1.yml\e[K\r\n\e[94m-a---          23/04/2023    22:49           2101 \e[1m\e[93mNewAssertions.psm1\e[m\e[K\r\e[97m\n-a---          22/04/2023    19:53           1254 Notes.txt\e[m\e[K\r\e[97m\n-a---          23/04/2023    22:48           2129 readme.md\r\e[m\n-a---          24/04/2023    12:07            887 Terminalizer.config.yml\e[97m\e[K\r\e[m\n-a---          24/04/2023    12:02           3712 test1.yml\r"
+  - delay: 5
+    content: "\n-a---          24/04/2023    12:07           3697 test2.yml\r\n-a---          24/04/2023    12:08           2188 test3.yml\r\n-a---          24/04/2023    12:22           6100 test5.yml\r\n-a---          24/04/2023    12:25          10230 test6.yml\r\n"
+  - delay: 5
+    content: |+
+
+  - delay: 31
+    content: "\e[38;2;192;192;176m[26t00.1\e[38;2;128;128;128m/\e[38;2;146;208;80m12:31:45\e[38;2;128;128;128m/\e[38;2;255;126;0mmain\e[38;2;192;192;176m] \e[38;2;61;148;243mC:\\...MyGithubRepos\\LogProvider\e[38;2;238;237;240m>\e[m "
+  - delay: 666
+    content: "\r\n"
+  - delay: 16
+    content: "\e[38;2;192;192;176m[26t00.1\e[38;2;128;128;128m/\e[38;2;146;208;80m12:31:45\e[38;2;128;128;128m/\e[38;2;255;126;0mmain\e[38;2;192;192;176m] \e[38;2;61;148;243mC:\\...MyGithubRepos\\LogProvider\e[38;2;238;237;240m>\e[m "
+  - delay: 542
+    content: "\e[?25l"
+  - delay: 15
+    content: "\e[32m#\e[?25h"
+  - delay: 112
+    content: "\e[m\e[?25l"
+  - delay: 12
+    content: "\e[32m\b# \e[?25h"
+  - delay: 888
+    content: "\e[m\e[?25l"
+  - delay: 11
+    content: "\e[32m\e[45;58H# s\e[?25h"
+  - delay: 116
+    content: "\e[m\e[?25l"
+  - delay: 23
+    content: "\e[32m\e[45;58H# sw\e[?25h"
+  - delay: 172
+    content: "\e[m\e[?25l"
+  - delay: 14
+    content: "\e[32m\e[45;58H# swe\e[?25h"
+  - delay: 91
+    content: "\e[m\e[?25l"
+  - delay: 18
+    content: "\e[32m\e[45;58H# swee\e[?25h"
+  - delay: 305
+    content: "\e[m\e[?25l"
+  - delay: 20
+    content: "\e[32m\e[45;58H# sweet\e[?25h"
+  - delay: 131
+    content: "\e[m\e[?25l"
+  - delay: 9
+    content: "\e[32m\e[45;58H# sweet \e[?25h"
+  - delay: 215
+    content: "\e[m\e[?25l"
+  - delay: 17
+    content: "\e[32m\e[45;58H# sweet !\e[?25h"
+  - delay: 500
+    content: "\e[m"
+  - delay: 12
+    content: "\r\n"
+  - delay: 46
+    content: "\e[38;2;192;192;176m[27t00\e[38;2;128;128;128m/\e[38;2;146;208;80m12:31:48\e[38;2;128;128;128m/\e[38;2;255;126;0mmain\e[38;2;192;192;176m] \e[38;2;61;148;243mC:\\...MyGithubRepos\\LogProvider\e[38;2;238;237;240m>\e[m "
+  - delay: 295
+    content: "\r\n"
+  - delay: 15
+    content: "\e[38;2;192;192;176m[27t00\e[38;2;128;128;128m/\e[38;2;146;208;80m12:31:49\e[38;2;128;128;128m/\e[38;2;255;126;0mmain\e[38;2;192;192;176m] \e[38;2;61;148;243mC:\\...MyGithubRepos\\LogProvider\e[38;2;238;237;240m>\e[m "
+  - delay: 232
+    content: "\e[?25l"
+  - delay: 16
+    content: "\e[93me\e[?25h"
+  - delay: 127
+    content: "\e[m\e[?25l"
+  - delay: 13
+    content: "\e[93m\bex\e[?25h"
+  - delay: 63
+    content: "\e[m\e[?25l"
+  - delay: 14
+    content: "\e[93m\e[45;56Hexi\e[?25h"
+  - delay: 165
+    content: "\e[m\e[?25l"
+  - delay: 21
+    content: "\e[92m\e[45;56Hexit\e[?25h"
+  - delay: 559
+    content: "\e[m"
+  - delay: 15
+    content: "\r\n"
