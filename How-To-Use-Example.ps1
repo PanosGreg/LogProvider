@@ -64,13 +64,15 @@ terminalizer play .\DemoTest.yml
 # Terminalizer installation notes
 <#
 terminalizer requires a specific maximum version of node.js.
-it can work with up to v16, and it won't work with newer versions.
+it can work with up to v12, and it won't work with newer versions.
 
 So here's an example of how you can install both node and terminalizer
 using choicolatey
 #>
-choco install nodejs-lts -y --version=16.20.0 --force
+choco install nodejs-lts -y --version=12.22.12
 refreshenv
 
 npm install -g terminalizer
 refreshenv
+
+# the nodejs version 12.22.12 is the latest LTS as of April 2023
