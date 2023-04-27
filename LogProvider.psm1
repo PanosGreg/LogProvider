@@ -1,3 +1,23 @@
+<#
+Log drive tree:
+
+Log:\
+  - Subs\
+  - Logs\
+    - ALL\
+    - VERB\
+    - WARN\
+    - INFO\
+
+Import-Module .\LogProvider.psd1
+New-PSDrive Log -PSProvider SHiPS -Root LogProvider#LogRoot
+$log = [MyLogger.Payload]::new('VERB','test message')
+$val = $log | ConvertTo-Json
+(Get-Item Log:\Logs\VERB).SetContent($log)
+Set-Content Log:\Logs\VERB $val
+dir Log:\Logs\ALL
+#>
+
 using namespace System.Collections.Generic
 
 # these global variables will be our storage that will hold all of the logs and subscribers
@@ -45,10 +65,22 @@ class LogStream : Microsoft.PowerShell.SHiPS.SHiPSDirectory {
         }
     }
 
+    # with 2 parameters. to be used with Set-Content -Path ... -Value ($log | ConvertTo-Json)
+    [void] SetContent([string]$Value,[string]$Path) {  # <-- I had to set params to string, SHiPS did not accept anything else
+        try {
+            $json = $Value | ConvertFrom-Json -EA Stop
+            $log  = [MyLogger.Payload]$json
+            $Global:_DriveLogs[$this.name].Add($log)
+        }
+        catch [System.ArgumentException]                      {Write-Error 'Could not parse JSON value'}
+        catch [System.Management.Automation.RuntimeException] {Write-Error 'Could not convert value to MyLogger.Payload'}
+        catch                                                 {Write-Error "Could not add value to $($this.name) list"}
+    }
+
+    # with 1 parameter, to be used with .SetContent($log)
     [void] SetContent([MyLogger.Payload]$log) {
         $Global:_DriveLogs[$this.name].Add($log)
     }
-
 } #LogStream
 
 [Microsoft.PowerShell.SHiPS.SHiPSProvider(UseCache=$false)]

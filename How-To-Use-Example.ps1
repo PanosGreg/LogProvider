@@ -25,10 +25,13 @@ dir LogDrive:\Logs\
 # another take of the above, but in a shorter manner:
 
 Import-Module C:\CoupaCode\MyGithubRepos\LogProvider\LogProvider.psd1
-New-PSDrive -Name LogDrive -PSProvider SHiPS -Root 'LogProvider#LogRoot' | Out-Null
-(Get-Item LogDrive:\Logs\VERB).SetContent([MyLogger.Payload]::new('VERB','This is a test message'))
+New-PSDrive -Name Log -PSProvider SHiPS -Root 'LogProvider#LogRoot' | Out-Null
+$log = [MyLogger.Payload]::new('VERB','test message')
+$val = $log | ConvertTo-Json
+(Get-Item Log:\Logs\VERB).SetContent($log)
+Set-Content Log:\Logs\VERB $val
 
-cd LogDrive:\
+cd Log:\
 dir
 cd .\Logs\
 dir

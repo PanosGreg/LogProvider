@@ -29,3 +29,14 @@ The data can persist in 2 ways:
    2) by using a global variable on the top of the module, which can be accessed
       inside the classes. This way you don't need any hidden property nor do you
       need to use the cache setting.
+
+
+d) About the Custom PS Drive 
+
+sources:
+- SHiPS Module:      https://github.com/PowerShell/SHiPS
+- Family Example:    https://github.com/PowerShell/SHiPS/blob/development/samples/FamilyTree/FamilyTree.psm1
+- CIMDrive Example:  https://github.com/PowerShell/CimPSDrive/blob/development/CimPSDrive.psm1
+- Music Lib Example: https://github.com/PowerShell/SHiPS/blob/development/samples/Library/Library.psm1
+- Formats Example:   https://github.com/PowerShell/CimPSDrive/blob/development/CimPSDrive.formats.ps1xml
+
