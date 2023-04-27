@@ -5,6 +5,7 @@ using namespace System.Collections.Generic
 $SubList = [List[System.Management.Automation.PSEventSubscriber]]::new()
 [List[System.Management.Automation.PSEventSubscriber]]$Global:_DriveSubs = $SubList
 
+# add a Key in the hashtable for each Log type
 $Types = [System.Enum]::GetNames([MyLogger.LogType])
 foreach ($TypeName in $Types) {
     $List = [List[MyLogger.Payload]]::new()
@@ -21,16 +22,10 @@ class LogStream : Microsoft.PowerShell.SHiPS.SHiPSDirectory {
     # constructors
     LogStream ([string]$name) : base ($name) {
         if ($this.name -eq 'ALL') {
-            $Types = [System.Enum]::GetNames([MyLogger.LogType])
-            $Sum   = ($Types | foreach {$Global:_DriveLogs[$_].Count} | Measure-Object -Sum).Sum
-            $this.Count = $Sum
-
-            $All    = $Types | foreach {$Global:_DriveLogs[$_]}
-            $Sorted = [System.Linq.Enumerable]::OrderBy(  # <-- I'm using LINQ for faster results
-                [MyLogger.Payload[]]$All,
-                [Func[Mylogger.Payload,datetime]] {($args[0]).Timestamp}
-            )
-            $this.LastMessage = $Sorted.Timestamp[-1]
+            $All = $Global:_DriveLogs.Values.ToArray()
+            [array]::Sort($All.Timestamp,$All)
+            $this.Count = $All.Count
+            $this.LastMessage = $All.Timestamp[-1]
         }
         else {
             $this.Count = $Global:_DriveLogs[$this.name].Count
@@ -40,15 +35,13 @@ class LogStream : Microsoft.PowerShell.SHiPS.SHiPSDirectory {
 
     [object[]] GetChildItem() {
         if ($this.name -eq 'ALL') {
-            $Types = [System.Enum]::GetNames([MyLogger.LogType])
-            $All   = $Types | foreach {$Global:_DriveLogs[$_]}
-            return ([System.Linq.Enumerable]::OrderBy(
-                [MyLogger.Payload[]]$All,
-                [Func[Mylogger.Payload,datetime]] {($args[0]).Timestamp}
-            ) | foreach {$_})  # <-- we need the foreach at the end, else indexing won't work
+            $List = [System.Collections.Generic.List[MyLogger.Payload]]::new()
+            $List.AddRange([MyLogger.Payload[]]$Global:_DriveLogs.Values.ForEach({$_}))
+            $List.Sort([MyLogger.PayloadComparer]::new())
+            return $List.ToArray()
         } #if ALL
         else {
-            return $Global:_DriveLogs[$this.name]
+            return $Global:_DriveLogs[$this.name].ToArray()
         }
     }
 

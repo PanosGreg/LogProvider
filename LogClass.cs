@@ -1,4 +1,5 @@
 using System;
+using System.Collections.Generic;   // <-- for IComparer
 
 namespace MyLogger {
 
@@ -38,4 +39,27 @@ namespace MyLogger {
             return output;
         }
     }
+
+    // Comparer-based class for sorting Payload items, but only based on the Timestamp property 
+    public class PayloadComparer : IComparer<Payload> {
+
+        // properties
+        public bool Descending;   // <-- by default this is set to false
+
+        // constructors
+        public PayloadComparer() {}
+        public PayloadComparer(bool descending) {this.Descending = descending;}
+
+        // method
+        public int Compare(Payload a, Payload b) {
+            int Result;
+            if      (a.Timestamp == b.Timestamp) {Result =  0;}
+            else if (a.Timestamp <  b.Timestamp) {Result = -1;}
+            else                                 {Result =  1;}
+
+            if (this.Descending) {Result *= -1;}
+
+            return Result;
+         }
+    } //LogPayloadComparer
 }
