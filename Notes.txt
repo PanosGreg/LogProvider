@@ -40,3 +40,9 @@ sources:
 - Music Lib Example: https://github.com/PowerShell/SHiPS/blob/development/samples/Library/Library.psm1
 - Formats Example:   https://github.com/PowerShell/CimPSDrive/blob/development/CimPSDrive.formats.ps1xml
 
+e) About the Custom Should Assertion in Pester
+
+sources:
+- Psester Docs: https://pester.dev/docs/assertions/custom-assertions
+- Example:      https://github.com/actions/runner-images/blob/main/helpers/software-report-base/tests/TestHelpers.psm1
+- Example Use:  https://github.com/actions/runner-images/blob/main/helpers/software-report-base/tests/SoftwareReport.DifferenceCalculator.Unit.Tests.ps1

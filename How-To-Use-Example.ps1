@@ -1,22 +1,29 @@
 ﻿
 # load the module
-Import-Module C:\CoupaCode\MyGithubRepos\LogProvider\LogProvider.psd1
-
+  Import-Module C:\CoupaCode\MyGithubRepos\LogProvider\LogProvider.psd1
 
 # create the log drive
-New-PSDrive -Name LogDrive -PSProvider SHiPS -Root 'LogProvider#LogRoot' | Out-Null
-$HasDrive = (Get-PSDrive | where Name -eq LogDrive) -as [bool]
-if (-not $HasDrive) {throw 'The Log PS Drive was not loaded'}
-else                {dir LogDrive:\}
+  New-PSDrive -Name Log -PSProvider SHiPS -Root 'LogProvider#LogRoot'
 
-
-# add a sample log
-$log = [MyLogger.Payload]::new('VERB','This is a test message')
-(Get-Item LogDrive:\Logs\VERB).SetContent($log)
-cd LogDrive:\Logs\VERB\
-dir
-dir LogDrive:\Logs\
-
+# add a sample log  (2 ways to do that)
+  $log = [MyLogger.Payload]::new('VERB','This is a test message')
+  
+  # via the .SetContent() method
+  (Get-Item Log:\Logs\VERB).SetContent($log)
+  
+  # via the Set-Content function
+  # But the value needs to be a string, so I serialize the object in json
+  $val = $log | ConvertTo-Json
+  Set-Content Log:\Logs\VERB $val
+  
+# see the results
+  cd Log:\
+  dir
+  cd .\Logs\
+  dir
+  cd .\VERB\
+  dir
+  cd c:
 
 
 ###########################
@@ -52,7 +59,8 @@ Invoke-Pester -Path $path -Output Detailed
 
 terminalizer record .\DemoTest.yml --config .\Terminalizer.config.yml
 
-# Note: I'm using a config file to:
+# Note: the config file is actually optional
+#       but I'm using a config file to:
 # a) use pwsh instead of powershell (which is the default)
 # b) set a max idle time to 400ms, instead of 2sec
 # c) set some colors for the console
@@ -70,7 +78,7 @@ terminalizer requires a specific maximum version of node.js.
 it can work with up to v12, and it won't work with newer versions.
 
 So here's an example of how you can install both node and terminalizer
-using choicolatey
+using chocolatey
 #>
 choco install nodejs-lts -y --version=12.22.12
 refreshenv
@@ -78,4 +86,4 @@ refreshenv
 npm install -g terminalizer
 refreshenv
 
-# the nodejs version 12.22.12 is the latest LTS as of April 2023
+# the nodejs version 12.22.12 is the latest LTS for v12 as of April 2023
